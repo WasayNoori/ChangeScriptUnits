@@ -1,0 +1,11 @@
+Another helpful sketch tool in creating complex shapes is the Parabola. You can enable it from the Tools, Sketch Entities drop-down, by clicking Parabola, or simply access it from the Ellipse dropdown on the Sketch tab of the CommandManager.
+ 
+In the graphics area, notice the cursor changes to display a pencil with a parabola next to it. I'll click once to establish the center, or focus, of the parabola, and as I move the cursor away, notice the PropertyManager updates, and an outline of the parabola appears.
+ 
+Next, I'll click to define the vertex, and click once more to begin the parabola. Now I'll move the pointer to draw out the shape I want, and click once again to complete it.
+ 
+One more time. First, click to mark the focus. Then, click again to mark the vertex. Finally, to define the parabola, click to mark the beginning of the parabola, drag the pointer to draw out the shape, and click one more time to finish.
+ 
+You can edit the shape and size either by using the parameters available in the PropertyManager, or by clicking and dragging its entities in the graphics area. Keep in mind that clicking and dragging different parts of the parabola will affect its shape, size, and position in different ways depending on how it's constrained.
+ 
+Defining a parabola really depends on what you're trying to accomplish. One thing I recommend is adding a centerline from the vertex to the focus. This gives you way of establishing a direction for the parabola, such as making the line vertical, and it provides a convenient place to add a dimension. This dimension will control how wide or narrow the parabola opens.

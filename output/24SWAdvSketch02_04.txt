@@ -1,0 +1,11 @@
+The Partial Ellipse sketch tool lets you use a start and end to create partial ellipses and is a big time-saver when you only need a section of an ellipse because it helps you avoid sketching an ellipse and later having to trim it.
+ 
+To sketch a partial ellipse, you start by clicking to define its center, and clicking again to define one of the axes, just like a regular ellipse. This time, when I click a third time, notice I'm actually sketching the shape itself. Once you start sketching the shape, you just drag your pointer and click again to complete the partial ellipse. If this seems complicated, don't worry about it. The partial ellipse and parabola sketch tools are some of the most difficult sketch tools to get used to, but with enough practice, they'll become second nature to you.
+ 
+Let's go over the partial ellipse one more time: click to mark the center, click to establish one of the axes, and click again to define the second axis and start the ellipse. Drag the pointer to draw out the shape you want to end up with, and click to create the partial ellipse.
+ 
+Notice also that the Ellipse PropertyManager appears with a variety of different parameters you can adjust. These include the Center X and Y coordinates, the Start X and Y Coordinates, the End X and Y Coordinates, the Major and Minor radii values, and the Angle.
+ 
+You can define the partial ellipse just like the regular ellipse by using a centerline along with relations to keep the partial ellipse from spinning, and applying a couple of dimensions to control the size.
+ 
+Notice if I try to delete these points, SOLIDWORKS prompts me that I can't delete sketch endpoints and center points. These points are the defining points for the ellipse; they mark the location where the minor and major axes would be if this were a complete ellipse. Deleting these would be like deleting the center point of a circle.

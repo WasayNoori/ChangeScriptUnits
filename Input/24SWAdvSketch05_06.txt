@@ -1,0 +1,11 @@
+A third way to control the shape of a spline is by using a Control Polygon. Control polygons are a series of control points that control the shape of a spline, and are connected in space by dotted lines.
+ 
+Before I start, let me make a few changes so you can easily see how a control polygon works. I'll change the scene from the heads-up toolbar to Backdrop Grey with Overhead Light, switch the view to show the whole spline, and show the curvature of the spline by right-clicking it, and selecting Show Curvature Combs.
+ 
+If I click a node, you can see a yellow triangle appears over it, and if I click and drag it, you can see I can change the shape of the spline while maintaining curvature continuity, giving me more control over the spline shape. This control is different from the others in that they do not manipulate anything directly attached to the spline itself except for at the endpoints.
+ 
+If you find yourself using control polygons often, you can enable them by default by going to Options, System Options, and under Sketch, select Show Spline Control Polygon by Default. Now if I create another spline, you can see the control polygon shows automatically.
+ 
+If I clear the option once again, and return to the sketch, you can see the control polygon is still visible. To hide it, simply right-click the spline, and disable the option.
+ 
+It's often said that the smoothest shapes are created by using the control polygon. On the other hand, it is difficult to control the position of a point using the polygon. In practice, you will wind up using some combination of these three techniques.

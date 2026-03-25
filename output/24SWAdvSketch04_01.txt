@@ -1,0 +1,27 @@
+Creating 3D sketches in SOLIDWORKS can take a bit of getting used to, but it's a skill that can be a big timesaver if you have to design things like tubing, piping, or weldments. To begin a 3D sketch, you can click on the 3D Sketch icon from the Sketch tab of the CommandManager, or you can use the 3D Sketch command from the Insert drop-down menu.
+ 
+At first glance, not very much is different between the regular 2D Sketch environment and the 3D Sketch environment you see here. If you look closely, you'll notice a 3D Sketch item is listed in the FeatureManager tree, and the Status Bar reports that you're in fact editing a 3D Sketch.
+ 
+Other than these indicators, most of the same sketch tools are available, including lines, arcs, rectangles and splines. There is also a sketch tool available only in 3D Sketches called Plane. I'll talk more about that in a moment. First, let's take a look at the basics of 3D Sketching.
+ 
+I'll begin by selecting the line tool from the sketch toolbar.
+ 
+Notice that red arrows show up at the origin matching the X and Y directions of the reference triad here in the corner. Also, next to the pointer, you can see the XY indicator. This feedback tells me that if I start sketching a line right now, it will lie in the XY plane, which has the same orientation as the plane we call the Front plane.
+ 
+Before starting the sketch, watch what happens when I press the TAB key on my keyboard. The red arrows move into different orientations and the indicator next the pointer changes. You'll see the XY, YZ, and ZX orientations become active. This ability to change the active orientation of your sketch is what makes 3D Sketching powerful.
+ 
+Instead of creating several 2D Sketches and the reference planes that go along with them, you can use 3D Sketches to accomplish 3D geometry in a single step.
+ 
+Here's a basic example.
+ 
+I want to begin in the XY direction, so I'll press the TAB key to be sure the XY direction is active. Next, I'll click on the origin to begin sketching a line. This line will lie along the Y direction. If I were creating this line in a 2D Sketch, this would be the vertical direction.
+ 
+Next, I'll continue with a line segment in the X direction. So far, these segments lie in the XY orientation and they're essentially a 2D sketch.
+ 
+Let's break out of the 2D plane by pressing the TAB key, making the YZ orientation active. Now I'll sketch a segment in the Z direction.
+ 
+Using the TAB key again, I'll make the XY orientation active, and sketch a segment in the Y direction. To complete this simple example, I'll add one more segment in the X direction, and turn off the line tool.
+ 
+You can see as I rotate the sketch that I've got a 3D structure that could not have been created using a 2D Sketch. In fact, to create this using 2D Sketches, I would have had to create two additional reference planes. I'd like to point out, however, that the 3D sketch tool isn't just a faster way of creating multiple 2D sketches; it's important to note that some situations require the use of 3D sketches, such as applications involving routing and weldments.
+ 
+Although what I've shown you so far may seem very basic, I do recommend you try using the line tool along with the TAB key to create some basic 3D structures like this one. Many users struggle to understand the important role of the TAB key and become frustrated when trying to use 3D Sketches.

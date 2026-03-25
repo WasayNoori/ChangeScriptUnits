@@ -1,0 +1,19 @@
+The final type of curve we'll take a look at is the Intersection Curve. This is quite different than the other curves we've seen so far. The other curves were listed in the FeatureManager Tree as Curves - not sketches. The Intersection Curve is actually a Sketch tool. It's used to generate curves within Sketches as you'll see in the following examples.
+ 
+Let's start by creating a curve at the intersection of a Plane and a surface. I have a planar surface here, but this could be any type of surface or model face that intersects a plane.
+ 
+The Intersection Curve is found on the Tools drop-down menu, in the Sketch Tools section, or it's found under the Convert Entities drop-down icon. Notice as soon as I selected the command, the PropertyManager appears with only a selection box active. From the FeatureManager, I'll select the Front Plane, and the planar surface. When I click OK, the Intersection Curve is created and I am placed into edit sketch mode for a 3D sketch that was just created.
+ 
+The only problem with this is that if I want to continue working on this sketch, I'm stuck with a 3D Sketch, even if I don't need one. I can avoid the 3D Sketch either by selecting a plane before launching the Intersection Curve command or by launching the command while already in a 2D sketch. Let me cancel this sketch, and start over to show both of these methods.
+ 
+First, I'll select the Front Plane from the FeatureManager Tree, and click on the Intersection Curve icon. Now, all I have to do is select the planar surface to generate the Intersection Curve. Once I press OK, a new sketch is started, but it's a regular 2D sketch. Let me cancel out of this again.
+ 
+Alternatively, I can start a sketch on the Front Plane first, then activate the Intersection Curve command, select the planar surface, and click OK to create the intersected curve as a 2D sketch.
+ 
+ Keep in mind that you can create an intersection curve between a Plane, the Front plane in this example, and any surface or model face that intersects it. In fact, if you needed to, you can create an intersection curve between a plane and an entire Part.
+ 
+Just select a plane, launch the Intersection Curve command, and instead of clicking a face from the graphics area, select the Part icon in the FeatureManager Tree.
+ 
+In the last examples, I used a Plane to create intersection curves. You don't have to use a plane; you can create intersections between two surfaces or faces like these here.
+ 
+Instead of pre-selecting a plane, I'll launch the Intersection Curve command, and then select both surfaces.

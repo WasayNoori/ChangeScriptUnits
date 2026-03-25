@@ -1,0 +1,9 @@
+The Advanced Sketch tools that I'll cover in this section are SOLIDWORKS tools used to control, manipulate, and create sketches with much greater accuracy. The question with a lot of these tools however, is when to use them, rather than start over?
+ 
+For most of these tools, as you can imagine, it has to do with what your goal is. If you want more control over a sketch, splitting entities and adding sketch segments can be a great way to add pinpoint control without ripping down a sketch. The Derived Sketches and Move Entities tools on the other hand, let you easily duplicate work, and even have some other capabilities built in.
+ 
+The SketchXpert tool falls strongly into the timesaving category by offering potential solutions to over defined sketches, and Sketch Picture and AutoTrace can even help you get started by importing and converting image files into sketch geometry. Similarly, the Slicing Tool can be a huge timesaver and starting point when working with imported geometry, or trying to reverse engineer a solid body.
+ 
+As you can see, the sketch tools have a lot of versatility, so understanding how and when to use these more advanced tools can streamline your workflow, and give you more flexibility.
+ 
+In the following lessons, I'll go over how to use each of the tools I just mentioned, and show you how and when to use them.

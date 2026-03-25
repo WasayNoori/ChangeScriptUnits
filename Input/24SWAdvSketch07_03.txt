@@ -1,0 +1,11 @@
+Since design is an iterative process, there may be changes that occur or mistakes that take place when creating sketch blocks for your designs. When they do, you may need to edit the contents of your sketch blocks or remove blocks entirely while still preserving the sketches contained without having to recreate them. I'll show you how to accomplish both these tasks in this lesson.
+ 
+ In the sketch here, I have a layout for the basic movement of a punch machine operated via toggle joint. I want to modify this so that the operating arm on the right side is longer. I also want to remove two of the extra rectangular blocks on the bottom punch piece. To begin making edits to the arm, I can either select the "Arm" block from the Feature tree, and activate the "Edit Block" tool from the Blocks toolbar, or right-click the block in the tree and access the tool from here.
+ 
+When I activate it, the entities contained within the block are isolated from the rest of the sketch and I can make any edits here. I'll change the arm length from"4" inches to "6" inches. When I'm done, I'll click the block confirmation corner icon to exit out of Edit Block mode, and I'm placed back into the sketch. Notice also how the block now contains the edits I made to it. If edits don't update as expected in your sketch, try using the "Rebuild" option from the quick-access toolbar.
+ 
+ Sometimes you may have a complex block that's unruly to edit or one you don't need anymore. While you might be tempted to delete the block entirely, you'll want to keep in mind that the sketch entities associated with the block will also be deleted, which you can see when I delete the "Punch" block here. This can become problematic when you have one or more blocks that you want to remove but whose sketch entities you want to maintain.
+ 
+For situations like this, you can choose to remove the block itself by using the "Explode Block" command. Watch. I'll undo the deletion I just did. Now I can select the block in the graphics area or from the Feature tree, activate the "Explode Block" tool from the Blocks toolbar or right click menu, and notice how the block is removed and the sketch becomes available again for me to edit.
+ 
+Knowing how to edit and remove blocks in this way makes working with blocks easier as your design and sketches undergo changes.

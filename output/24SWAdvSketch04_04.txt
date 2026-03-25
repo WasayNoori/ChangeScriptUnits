@@ -1,0 +1,27 @@
+In addition to using the default planes or creating your own reference planes for use in a 3D sketch, there is a special type of plane you can create on the fly while in a 3D sketch. This is not the same as a reference plane. The main difference is that reference planes are fixed in space once you define them. Planes in 3D sketches are not. They can be defined using dimensions and relations just like any other sketch entity. Let's take a look at an example.
+ 
+Here I have a 3D sketch with three line segments already created. These are aligned with the Y, X, and Z axes, and are here primarily to help us with visualization in 3D space.
+ 
+To create a 3D sketch plane, you can use the Plane icon from the Sketch toolbar, or from the Tools, Sketch Entities drop-down menu. Notice the difference between this and a reference plane which is found in the Insert, Reference Geometry drop-down menu.
+ 
+The Plane PropertyManager appears, showing selection windows for First, Second, and Third References. In a moment, you'll see how these references can help you define planes as you create them. In this case, I'll simply click OK, and a plane is inserted into the sketch.
+ 
+Notice the PropertyManager lists the plane with a minus sign in front. This minus sign indicates the plane is under-defined. If this plane were any other sketch entity, it would be shown in blue, indicating that the entity is underdefined.
+ 
+Because the plane is completely under-defined, I can use the plane manipulators (these yellow dots) to move and rotate the plane in 3D space.
+ 
+Just like other sketch entities, such as lines and arcs, I can use geometric relations and dimensions to define the location of the Plane. For instance, I can select the Front reference plane, and make the 3D sketch plane parallel to the Front plane.
+ 
+To dimension to the plane, I'll need to first deactivate it so SOLIDWORKS doesn't think I want to dimension objects on it. This can be done by either right clicking, expanding the shortcut menu, and deselecting 3D Sketch On Plane, or simply double clicking a point not on the plane border. Be careful when using dimensions that you are accomplishing what you want. For instance, if I put in a dimension from this point to the plane, what I've done is tie one undefined entity - the point - to another undefined entity - the Plane. Now when I move one, the other moves along with it.
+ 
+This is much different than putting in a dimension from the same point to the Origin or the Front reference plane.
+ 
+At this point, let me add another plane, this time using references to position it right from the beginning. I'll click the Plane icon on the Sketch Toolbar, and for the first reference, I'll select the vertical line. When the line is selected, the applicable geometric relations appear below the selection window. In this case, Coincident, Perpendicular, and Parallel are available. I'll select Coincident.
+ 
+For the second reference, I'll select the Right reference plane from the FeatureManager tree, and specify a 45-degree angle.
+ 
+You have the option to specify a third reference, but in this case, I'll click OK to complete the new plane.
+ 
+One of the main reasons you'll want to use Planes in 3D Sketches is so that you can sketch on them. To sketch on one of these planes, you first have to activate it. To activate a Plane in a 3D sketch, double-click on it. You'll know the plane is active because a yellow frame appears around it, along with the yellow control points. While a plane is active, any sketch entities you create will be on the active plane. I'll sketch an entity, such as a rectangle, and notice how the plane resized according to the size of my entity. To resize the plane, simply click and drag any corner like you would with a reference plane.
+ 
+ I'd also like to point out how useful 3D sketch planes can be when you'd like to confine complex geometry. For example, I'll delete the rectangle, activate the spline tool, and create a spline by clicking on points outside the plane. When I rotate the model, you can see how it's sketched on the plane. Even when I try activating the spline points and manipulating their handles, which can normally cause the spline to curve in multiple directions in 3D space, you can see how the spline stays put on the plane. 

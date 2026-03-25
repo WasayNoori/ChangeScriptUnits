@@ -1,0 +1,11 @@
+In addition to the spline tools shown so far, I'd like to show you some other widgets that can help you when sketching splines.
+ 
+For example, I'll right-click on the spline shown here, choose the Show Inflection Points option, and black bowtie symbols appear on the spline indicating where the spline shape changes from concave to convex. Similarly, when I select the Show Minimum Radius option, a circle appears tangent to the spline with a radius value pointing to the location on the spline with the smallest radius. Both of these tools can be used as feedback to guide you as you create splines.
+ 
+Simplify Spline automatically removes control points from a spline while keeping the spline within a tolerance which you can specify. Just set the value, and click the Smooth button to simplify the spline, which is shown as a preview. Note that you can repeat this process until only two spline points remain, and click OK when the preview is how you'd like it. When I do, I get a warning that some spline handles and equal curvature relations will be deleted. I'll click Yes, and the spline has been simplified.
+ 
+Simplify Spline can also be used to add control points to a spline that was created by using the Convert Entities, Offset Entities, Intersection Curve, or Face Curves tools. To demonstrate this, I'll switch over to a model of a food display holder for sandwiches and tacos. Let me hide the body and zoom in so this is easier to see.
+ 
+In the sketch here, I've used Convert Entities on the shape's edge to generate a spline. By default, these generic splines are displayed without control points. Now, I'll select the spline, go to the Tools dropdown, under Spline Tools, and select Simplify Spline. I'll adjust the tolerance, click OK, select Yes on the warnings about deleting handles and relations, as well as constraints, and notice that the resulting spline includes control points with handles.
+ 
+As you can see, there are a variety of tools available when sketching splines. I recommend you spend a few minutes playing around with these and other spline options to get a good understanding of how they work.

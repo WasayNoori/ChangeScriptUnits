@@ -1,0 +1,9 @@
+The Spline on Surface tool is a simple, but powerful tool used to draw freeform splines directly onto surfaces. This gives you higher accuracy and control over the final shape of your splines, as well as the ability to easily create a continuous sketch along twisting or curved entities. The tool can be enabled by either going to the Tools drop down, and in the Sketch Entities flyout, selecting Spline on Surface; or by going to the Sketch tab of the CommandManager, expanding the Spline flyout, and selecting Spline on Surface from here. Once enabled, I'm immediately placed into a new 3D sketch with the tool active.
+ 
+To begin drawing then, I just need to select a starting point on the surface I want to add the spline to. I can then keep placing spline points on that surface; though note that I can't place a point anywhere else in the graphics area. I can however add points to different faces on the surface, so long as they're connected, without the need to restart the command.
+ 
+When I'm done with this spline, I can double click to place one last point and reset the tool to immediately create another spline, or just press the escape key to use the last point created as the spline's endpoint and exit the command.
+ 
+Once placed, the spline can still be manipulated or constrained like any other spline you draw, but notice that each of the spline points had an On Surface relation automatically added to them. This relation will not only keep the point on the surface as I manipulate it, but also keep the spline points connected if changes are made to the surface geometry.
+ 
+While a bit specialized, the Spline on Surface tool can be a great one to keep in your back pocket for adding split lines, trimming down complex surfaces, or creating sweep paths along curved geometry.

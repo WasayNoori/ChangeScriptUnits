@@ -1,0 +1,3 @@
+Reducing design time provides valuable benefits during the product design process, such as time to market, greater efficiency of resources, and lower costs. While there are several ways to accomplish this, being able to do so sooner or throughout the process can be highly beneficial.
+ 
+For this reason, Sketch blocks are powerful tools that can help you accomplish this goal by making it easier to create layout sketches that can simulate basic movements, create paths for belt and chain components, and recycle sketches across different models. Tools related to sketch blocks can be found on the Blocks toolbar inside SOLIDWORKS, and throughout the following lessons, I'll show you how each of these are used.

@@ -1,0 +1,25 @@
+Apart from control points, splines can also be controlled using spline handles. Spline handles allow you to control the tangency at each spline point, without changing the position of the spline points.
+ 
+ Here I have a 5-point spline. As I click each spline point, you can see that every spline point has two spline handles, and each end point has a single spline handle. Each spline handle is simply a vector that controls the tangency of the spline at that point. Remember that vectors always consist of two values: magnitude and direction. For this reason, the handle can get longer, affecting its magnitude, and it can rotate about the point it's attached to, affecting its direction.
+ 
+To edit a spline handle, simply select its corresponding spline point. If I click and drag the small dot at the end of the arrow, you can see that I can change both the magnitude and direction at the same time. To control just the direction, click and drag the diamond shape. Similarly, you can click and drag the arrowhead to control just magnitude. In general, you can get smoother splines using fewer control points. It's even possible to create a spline with no control points, only its two end points.
+ 
+ By default, a two-point spline looks like a straight line, but you can use its spline handles to control the tangency at its ends.
+ 
+Notice that even though these splines are all two-point splines, I can create very simple or very complex shapes by using the splines handles.
+ 
+ If the spline point has 2 spline handles, you can also use the spline handles symmetrically or asymmetrically. Just keep in mind that the direction handle will always "teeter-totter", so one side is always connected to the other.
+ 
+ By default, if you pull on the magnitude handle in one direction, the magnitude handle in the other direction does not lengthen symmetrically. Be careful when doing this, because asymmetrical control of tangency magnitude, also called tangency weighting, can cause sharp discontinuities in the curvature, as shown here.
+ 
+The setting called Maintain Internal Continuity can help control this and is found in the Spline Property Manager. To get the magnitude handle to function symmetrically, simply drag it while holding down the Alt key.
+ 
+To wrap up, let me take some time to talk about dimensioning spline handles. By themselves, spline handles can have horizontal and vertical relations added to their ends, and you can even dimension them directly to change their magnitude. Let me show you by using this spline on the left.
+ 
+ I'll select either the diamond shape or endpoint of the upper handle, click and drag slightly to wake it up, and the Horizontal and Vertical relation options appear in the PropertyManager. I'll choose the Vertical one, and the spline handle snaps to the nearest vertical position.
+ 
+Now, I'd like to modify the lower spline handle's magnitude. To do this, I'll activate the Smart Dimension tool, click on any of the handle's selectable entities, click to place the magnitude, input a value, and the handle updates.
+ 
+ If you have other sketch geometry, you can add sketch relations between the sketch entities and the spline ends as well as apply angular dimensions between them. To show this using the spline on the right, I'll hold down the Control key while selecting the upper construction line and the nearby spline handle, apply a Perpendicular relation in this case, and the spline snaps into place.
+ 
+After this, I'll activate the Smart Dimension tool, select the lower construction line, followed by the lower spline handle, input 120 for the value, and you can see a 120 degree angle was applied.

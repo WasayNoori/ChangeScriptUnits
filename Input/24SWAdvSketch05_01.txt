@@ -1,0 +1,11 @@
+SOLIDWORKS has three types of splines that you can work with: B-splines, Style Splines, and Generic Splines.
+ 
+B-splines, created with the standard Spline tool, let you create complex curves by placing individual spline points. These points can then have their position, tangency weight, and tangency vector adjusted on a point-by-point basis. This gives you a high amount of control over what the spline looks like across each span, which is the space between points.
+ 
+Style splines, on the other hand, are made up of only a single span controlled by a control polygon. Though less precise, these types of splines are great when curvature continuity is important, as they'll create smoother curves than B-splines.
+ 
+The final type of splines, Generic Splines, can't be created using the spline drop down, but are instead generated from operations such as convert entities, offset entities, or intersection curves. These splines are similar to Style splines in that they only have a single span controlled by a control polygon but lack the Curve Type option that gives you more control over the shape.
+ 
+You can convert any spline to another spline type by right clicking on it, and selecting the corresponding Convert To option, but note that when converting to a Style Spline, a warning will appear letting you know that the conversion will only be an approximation of the existing curve and will therefore have different geometry.
+ 
+Throughout the rest of this section, I'll take a closer look at how to create, manipulate, and work with splines, starting with the default spline type, B-Splines.

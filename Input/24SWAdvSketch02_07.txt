@@ -1,0 +1,23 @@
+An Equation Driven Curve is exactly what it sounds like, a sketch curve where the shape is defined by a mathematical equation. This is helpful when designing parts that defined by mathematical principles, such as the curvature of a lens, or the shape of a spring. In the example here, I've created a model of a nautilus shell whose shape follows the curve of a golden or logarithmic spiral, which was generated using an equation driven curve. By letting SOLIDWORKS handle the heavy lifting of calculations, you're then freed up to work more directly with the variables you care about.
+ 
+Depending on the type of sketch you're in, the curves can be either two or three dimensional. Since 2D curves are a bit easier to grasp though, I'll start by creating a new sketch on the Top plane, and then enabling the Equation Driven Curve tool from either the Tools drop down menu, in the Sketch Entities flyout, or from the Sketch Toolbar, in the flyout next to the Spline tool.
+ 
+The Equation Driven Curve PropertyManager appears, and you can see that it only has 2 sections: Equation Type, and Parameters. Using an Explicit equation type lets me define the Y value for the curve using an equation based on the range of X values I put here. Using a Parametric equation type, on the other hand, lets me define both the X and Y values of the curve using equations based on a range of T values.
+ 
+To keep things simple, I'll start by setting the Equation type to Explicit, and defining the Y equation to be X + 1. This equation will create a sloped line in the range I specify, but note that I could use a constant value, such as 1, to create a flat line instead. I'll set the X1 value to 0, and the X2 value to 5. When I click away, you can see that the angled line appears in the graphics area starting alighted to the origin.
+ 
+A Parametric equation works much the same way. I'll switch the Equation Type to Parametric, and notice that the Y equation is now red. This is because X is no longer the parameter being used, making this an invalid equation. If, however, I changed the equation to T + 1, to match the new T parameter, it becomes black and valid.
+ 
+Any of the functions supported in the Equations dialog box can be used here. Say I'd like create an Involute curve like the logarithmic spiral shown earlier. For the X equation, I'll input 0.25 followed by an asterisk as the multiplier operator, type in "exp" for the natural log of base e, raise this to the power of 0.25 times t in parentheses, and multiply this by cosine t. I'll repeat this syntax for the Y equation, except that I'll change the last term to be sine of t. I'll then set the range of t from 0 to 4 times pi, and zoom out to see the new curve.
+ 
+ I'll click the green check to add it, and notice that the geometry is blue, indicating it isn't fully defined. This means that I can click and drag on the curve to change its location, though the shape won't change. Selecting it also brought up the Equation Driven Curve PropertyManager again, though this time you can see it has a few new options to control its relations, and change it to construction geometry.
+ 
+If I add a Fix relation to the curve, I can no longer drag it around the graphics area, but I can still change the curve by adjusting the equation in the Parameters options at the bottom of the PropertyManager. I'll click the green check to save the changes, and then exit the sketch.
+ 
+Before wrapping up I want to show you how to use the Equation Driven Curve tool to make a 3D curve. This can be useful, for example, when trying to create models that follow a repeating path in 3D space, such as the wave spring shown here.
+ 
+ To show this, I'll create a new part file, start a new 3D sketch, and enable the tool once again. This time when the PropertyManager appears, you'll notice that there isn't an Equation type option anymore, and a third equation input has been added to control the Z value.
+ 
+Controlling this many equations can be a bit of a headache, so for now, just trust that the equations I'm using here are used to create the path for a wave spring with a radius of point seven five. For the X equation I'll use point seven five times the sine of T; the Y equation will be point seven five times the cosine of T; and the Z equation will be point one two five times the sine of two point five times T plus point zero six times T. For the Parameters, I'll set T1 to zero, and T2 to forty.
+ 
+I'll click the green check to create the curve, and switch to an isometric view. As you can see the geometry here is complicated, and while you could create it using other sketching techniques, the Equation Driven Curve tool is simply easier, faster, and more robust to updates.

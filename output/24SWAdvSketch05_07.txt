@@ -1,0 +1,25 @@
+Style splines let you create smooth curves in both 2D and 3D sketches and are ideal to use when it's important to have smooth, robust surfaces.
+ 
+Style splines are different than standard splines. As you can see, style splines have neither spline points nor spline handles, and are instead defined and controlled by the control vertices, which form a control polygon.
+ 
+The curve forms a single span between the endpoints, ensuring that the curve will always have a curvature continuous profile.
+ 
+To create a style spline, I'll launch the style spline tool from the sketch toolbar. When the PropertyManager appears, SOLIDWORKS prompts me to select the settings for the new spline. You can choose to create a Bezier curve, a B-Spline of Degree 3, B-Spline of Degree 5, or B-Spline of degree 7. I'll select the Bezier curve.
+ 
+Watch as I click to create the spline. Notice when I click, a control vertex is added, and when I double click, the spline is created.
+ 
+To control its shape, you can click and drag the control vertices, and end points, as well as the control polygon.
+ 
+You can also add geometric relations and dimensions, and change the number of control vertices by using the curve degree spin-box in the PropertyManager. To manually add a control vertex at a specific location, right-click the spline and select Insert Control Vertex, and click where you want to place the control vertex. To delete a control vertex, select it in the graphics area and press the delete key, or right-click the point and select Delete.
+ 
+Just like with regular splines, you can easily control the degree and continuity of the curves. I'll quickly sketch a style spline to connect these end points, and if I select this point, you can see that I can add tangency or equal curvature relations between the curves.
+ 
+With the relations added, I can now drag the control vertices to adjust the curve's shape, while still maintaining the curvature continuity.
+ 
+With style splines, you can constrain and dimension the curve's control vertex points and sides. You can also mirror and add symmetric relations to the curve. I'll go ahead and undo these changes and take a moment to clean up the graphics area, by deleting any extra dimensions, relations, and entities, as well as repositioning my style spline. I'll also right click the control polygon and insert a couple of control vertices.
+ 
+If you decide you want to use B-Spline but don't want to re-create the spline from scratch, you can change the curve type from the PropertyManager. I'll select the spline. And notice the Curve Type drop down. Here, I can change the curve type to a B-Spline of Degree 3, 5, or 7.
+ 
+If you don't see all of the B-spline options available here, you might not have enough endpoints on your spline. To create a B-spline of a certain degree, the number of vertices the spline has needs to at least be equal to the degree of the desired spline plus one. For example, you need at least 6 vertices to create a B-Spline of Degree 5, and at least 8 vertices to create a B-Spline of Degree 7.
+ 
+There's one thing I'd like to point out about style splines before wrapping up. If you want to make edits to just a single style spline without affecting the geometry of anything it's constrained to, select the spline and make sure the Local Edit checkbox is enabled in the PropertyManager. This ensures that only the current style spline will be affected by any changes. Notice what happens if I uncheck this box, and change the shape of the style spline. The other geometry that the style spline is attached to also changes. This can be helpful when working with a series of style splines that are connected but underdefined that you want to manipulate together. I'll go ahead and check the Local Edit checkbox again, and now, only the spline geometry changes.

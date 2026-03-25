@@ -1,0 +1,9 @@
+The polygon tool allows you to quickly create equilateral polygons with any number of sides. You can activate the sketch tool from the Sketch tab of the CommandManager, or from the Tools drop-down menu, under Sketch Entities. Both options bring up the Polygon PropertyManager.
+ 
+Before I begin sketching, notice the PropertyManager allows me to specify the number of sides. I'll specify 8 for this example, and use the Inscribed Circle option. In the graphics area, I'll click to place the center of the polygon, and once more to control the circle diameter.
+ 
+You can see SOLIDWORKS created a construction circle to control the diameter of the polygon. Since I chose the inscribed circle option, you can see the circle is inside the polygon, but I can easily change this by selecting Circumscribed Circle instead.
+ 
+While there are additional options below to adjust the polygon, it's important to note that changing these properties won't fully define it. Rather, it's best practice and more intuitive to modify the polygon in the graphics area after exiting its PropertyManager by adding sketch relations and dimensions to fully define it.
+ 
+One last thing to note before wrapping up. If I want to create a new polygon without adjusting the properties of the previously created one and without having to reactivate the tool, I can use the New Polygon option, adjust any settings as needed, and sketch a new polygon, then continue tweaking the settings for the new polygon as desired.

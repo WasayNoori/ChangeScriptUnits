@@ -1,0 +1,5 @@
+Curve features in SOLIDWORKS are 3D entities that can be used to make specialized geometry or capture projected or intersecting geometry without the need for a sketch. These features can be used to create helixes and spirals, make curve projections and intersection lines on surfaces, and to combine separate 2D sketches into a single 3D sketch.
+ 
+Due to their continuity and ease of control, they're often used as a path or guide curve for Sweep features. Helixes and Spirals can be easily swept into springs or heating coils, while more freeform curves can be used to make custom cuts, or used to model cables, wires, and tubing.
+ 
+There are several different ways to make curves in SOLIDWORKS, such as with specific XYZ points, or out of selected reference points and construction geometry, and I'll go over how to use all the various curve tools in the next few lessons.

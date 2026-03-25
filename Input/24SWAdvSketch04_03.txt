@@ -1,0 +1,29 @@
+In the previous example of a 3D Sketch, the geometry we created lined up with the standard coordinate system. That is, all lines were either in the X, Y, or Z directions of the Reference Triad shown on the lower left-hand corner of the graphics area. In this example, I want to show you how to create geometry that doesn't fit into the X, Y, Z system.
+ 
+This is the geometry I want to create. You can see a portion of the sketch lies at an angle of 45 degrees in relation to the Top plane. To get started, I'll switch to a blank part file with the Top plane showing.
+ 
+Notice that I'm also within an active 2D sketch. Before I begin the 3D sketch, I'll create a plane to serve as a reference. By the way, it's not necessary that you create Reference Planes ahead of time like I'm doing here. This is simply one approach. In the next lesson, I'll show you how you can create planes on the fly to create your 3D sketches.
+ 
+ To create an angled plane here, I'll begin by putting a line on the Top Plane, and use it to define an angled plane at 45 degrees. If your sketch requires several reference planes, it's a good idea to rename them so you can identify them easily as you sketch. Here, I'll simply call this plane 45 Degrees.
+ 
+Now I'll start a new 3D Sketch, and activate the line tool. As you saw earlier, the red arrows appear indicating the orientation of the sketch. I want to create the angled portion, and I want to use the angled plane I just created to do so. Instead of just sketching a line, I'll turn off the Line tool, and pre-select the angled plane. I can do this from the FeatureManager tree or the graphics area.
+ 
+With the plane selected, I'll turn on the Line tool, and notice the red arrows are different now. They line up in the same orientation as the angled plane, indicating that the coordinate system I'm using has changed. Instead of the Front plane serving as the XY plane, now this angled plane is the XY plane.
+ 
+I'll begin with a line starting at the origin, and going in the vertical direction. Remember, vertical is in reference to the angled plane. Next, I'll sketch a Horizontal line, and another Vertical line. Notice I'm snapping to the yellow inference lines to automatically capture Vertical and Horizontal relations as I sketch. These can be added later, but adding them automatically saves me a couple of steps.
+ 
+Now that I've created the lines that lie in the angled plane, I need to create a short line that is perpendicular to the angled plane. To access this direction, I'll use the TAB key to sketch a line along the Z direction.
+ 
+Next, I want to sketch in the same orientation as the Top plane, so I want to stop using the angled plane as a reference. To do this, I'll simply turn off the line tool, and turn it back on. The red arrows now line up with the reference triad once again. I'll continue with the geometry, making sure to hit the TAB key to switch planes when necessary, and to complete the sketch, I'll click on the origin. Notice that although I was sketching in the orientation of the Top plane, by clicking on the origin, the line will attach itself even if the origin does not lie in the same plane. I didn't have to use the TAB key. I simply clicked on an existing point and the 3D sketch connected to it.
+ 
+Now to define the sketch. First, I want this small angled line to be perpendicular to the angled plane. This way it'll be parallel to the other short segment. To accomplish this, I'll hold down the Control key while selecting the angled plane, followed by the line, and then select the Perpendicular relation. Next, I want to make these two angled lines parallel to each other, so I'll hold down the Control key and first click this line, then this one, and choose the Parallel relation. I'll also align these two points in the same way, this time using the Along X relation, as well as these two points.
+ 
+When working with 3D Sketches, it's common to use planes as references for geometric relations and for dimensions. For instance, the next thing I want to do is dimension this line from this point.
+ 
+However, if I select the point, I don't get the dimension to align the way I want. Instead, I get the shortest distance between the two. To get the alignment I want, I'll select the Front reference plane from the FeatureManager, and dimension to the line. This gives me the alignment I was looking for.
+ 
+I'll finish up with a few more dimensions, then add the fillets. I'll dimension the short angled line, then define the horizontal and vertical lines on the 45-degree plane. The sketch is now fully defined, so I'm ready to add the fillets.
+ 
+I'll take a moment to hide the sketch planes and reference geometry, and then activate the sketch fillet tool. I'll add the first set to the outer four corners of the sketch, and the second, smaller set to the sharp corners at the bend.
+ 
+Finally, I'll click the green check, and you can see the 3D sketch is complete.

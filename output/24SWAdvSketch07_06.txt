@@ -1,0 +1,21 @@
+Belts and chains are key components found in a wide variety of mechanical devices and systems that link rotary motion from one entity to another to synchronize motion or translate different types of motion.
+ 
+To accomplish this, belts and chains are used in tandem with other components like shafts, pulleys, and sprockets to drive motion for different applications, such as timing belts in car engines, conveyor belts in manufacturing lines, and drivetrains in bicycles. While the specifics of different belts and chains are beyond the scope of this course, I'd like to take some time and show you how to use the Belt/Chain tool alongside sketch blocks to create these types of designs.
+ 
+ I'll switch over to SOLIDWORKS where I have a sketch comprised of a series of sketch blocks. These blocks contain circles that I'd like to link together using a belt. Because the Belt/Chain command requires the use of sketch blocks in part models to generate the path, it's important to remember to convert any sketch entities you want to use into individual sketch blocks first.
+ 
+ To begin, I'll make sure the sketch is active, and I'll activate the command from the Blocks toolbar to bring up the Belt/Chain PropertyManager. Under the Belt Members group box, I'll begin selecting the sketch blocks in the graphics area, and notice how a preview of the belt appears onscreen and adapts its layout as I select more members.
+ 
+ If the belt preview appears twisted or is feeding into a sketch block on the incorrect side, you can flip the direction by either clicking the arrow in the graphics area, or by clicking the Flip belt side button in the PropertyManager.
+ 
+ Additionally, you can rearrange the order of selected entities in the list using the up and down arrow buttons next to the group box, which you can see also changes the layout of the belt.
+ 
+I'll switch these back to their original order and make sure the belt is feeding into each block correctly.
+ 
+Notice that by default, SOLIDWORKS will automatically calculate the belt length based on the Belt Members you select. You can override this by enabling the Driving checkbox and specifying the belt length by using the spin boxes or inputting a value, but note that you must have at least one sketch block left undefined for this to work. This can be a helpful option when you have a standard or off-the-shelf belt size in mind for your design, but I'll leave this option unchecked here.
+ 
+Also note that right now, the belt is simply a sketch with no thickness applied. By enabling the Use belt thickness option, you can input a thickness value, and a gap will appear between the sketch blocks and the belt to represent the thickness.
+ 
+Finally, the Engage belt option is used to link movement between components connected by the belt. Since I'm only creating this belt path around sketch blocks and not modeled components, I'll leave this unchecked, click OK, and the belt sketch is complete.
+ 
+ While this is a useful way to create layout sketches, belts and chains aren't confined to part models; you can also create them within assemblies. For more information and examples on these, I recommend you check out the SolidProfessor course on Advanced Assembly design which contains lessons on the Belt-Chain feature and the Chain Component Pattern tool.

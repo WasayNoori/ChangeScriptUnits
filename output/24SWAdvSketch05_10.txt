@@ -1,0 +1,27 @@
+In addition to the spline tools available from the right-click menu, there are additional options for the display and control of spline available in the Spline PropertyManager, and in the options, under System Options, Sketch.
+ 
+Here, there are a few options to control the default behavior of splines.
+ 
+First, you can choose to enable or disable the spline handles. This option is enabled by default. Notice if I uncheck the option, and click OK, you can see that now, when I click on the control points, the spline handles don't appear.
+ 
+I'll return to Options, System options, Sketch, and re-enable the spline handles option.
+ 
+The next option, Show spline control polygon by default, will automatically activate the control polygon for every spline you sketch. I'll enable it, click ok, and when I sketch a new spline, you can see that the control polygon automatically appears.
+ 
+I can turn this off by right-clicking on the spline and deselecting Display control polygon, or by returning to the Sketch System Options, and deselecting the option.
+ 
+The last spline option here is Show Curvature Comb Bounding Curve. Let me show you what this does. I'll enable it, click OK, and when I turn on the curvature combs for the spline, there is now a curve that outlines them for better visibility.
+ 
+In addition to the Spline settings in System Options, if I select the spline to bring up the Spline PropertyManager, you can see that there are additional options here.
+ 
+You can make the spline construction geometry, or toggle the curvature combs on or off. There's also the option to Maintain internal continuity. This option is used to prevent a spline from getting a sharp kink in it when the Spline Handle tangency magnitude is used asymmetrically. It's a good idea to have this turned on all the time. Generally, if you want to create a sharp discontinuity at a point, it's best to use two different splines without tangency or curvature sketch relations.
+ 
+Under Parameters, the Spline Point Number box enables you to cycle through all of the control points of a spline. The next two boxes control the X and Y positions of the point that is selected, while the following boxes control the spline handle's tangency weighting and radial direction values. If one of the tangent weighting values is grayed out and has a 0 value assigned, the selected point is an end point.
+ 
+If you have Maintain internal continuity enabled, checking the Tangent driving option here will let you change the Tangent Radial Direction, while disabling Maintain internal continuity will let you change the Tangent Weighting values so they're asymmetric.
+ 
+To return a spline handle to its default values, select Reset This Handle. Selecting the handle and pressing the Delete key on the keyboard does the same thing. You can also reset all the handles in the spline by selecting Reset all Handles.
+ 
+Relax Spline is a function that can be useful when a spline becomes unmanageable. This spline, for example, has a kink between the control points. If I select Relax Spline, the kink is smoothed out.
+ 
+The final option in the Spline PropertyManager is Proportional. If I enable this option, the shape of the spline will be retained when I drag the endpoint of the spline.

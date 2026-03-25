@@ -1,0 +1,21 @@
+The Modify Sketch tool is an all-in-one tool that provides a convenient way to move, scale, flip, or rotate an entire sketch. This differs from the other sketch entities tools shown previously which let you move, rotate, scale, or copy individual sketch entities. This can be useful when copying or deriving sketches onto other planes to help preserve their overall profile during modifications. Let me show you how this works with this model of a folding screen.
+ 
+ I'd like to copy this decorative sketch from the first pane onto another pane. In this case, I'll choose to derive the sketch onto the first pane from the right, and notice how it doesn't come in quite where I'd like. Notice also how the Move Entities tool and dropdown tools are unavailable from the CommandManager, as well as from the Sketch Tools flyout under the Tools dropdown. However, the Modify option is available for derived sketches. I'll select it, and you can see the Modify Sketch dialog appears with options to Scale About, Translate, and Rotate the sketch.
+ 
+There's also an L-shaped black origin that corresponds to the Moveable origin option in the dialog. Notice when I hover my cursor anywhere in the graphics area, a mouse icon appears next to it with a Pan symbol on its left button and a Rotate symbol on its right button. This means when I click and hold the left button, I can move my sketch freely, and when I click and hold the right button, I can rotate my sketch. Note that the distance you place your mouse from the moveable origin determines how much the angle increments by. For instance, rotating the sketch close to the origin will increment the angle by ten or more degrees, while rotating the sketch further from the origin will increment the angle at one degree or less.
+ 
+ Also don't worry about the spline handles not moving while using the tool; these will update when I've exited the sketch, but to keep things looking clean, I'll reposition the sketch over them.
+ 
+ I'd also like to point out some other features of the moveable origin. You can click and drag the corner point to reposition the entire origin, and even snap it to entities like edges, points, or other origins. I'll snap this onto the sketch near the middle.
+ 
+Additionally, hovering the cursor over any of the endpoints will change the function of the right-mouse button to a type of sketch mirror as shown by the changing symbol onscreen. For example, hovering over the vertical endpoint shows a vertical sketch mirror, and when I click it, the sketch flips vertically. Similarly, hovering over the horizontal endpoint lets me click to flip the sketch horizontally, and hovering over the corner point allows me to flip the sketch across the origin entirely.
+ 
+Now that you understand the graphical options available, let me return to the Modify Sketch dialog to explain how these options work. The settings here are similar to those found in the Move, Scale, and Rotate Entities tools. For scaling, I can choose to scale about the Sketch origin or the Moveable origin. I'll choose the Moveable origin, set the factor to be 2, and when I hit the Enter button on my keyboard, the sketch scales up. Likewise, setting the value to a smaller number than 1, such as 0.5, will scale the sketch down.
+ 
+Under Translate, I can input X and Y Values, such as -7 and 5, and hit the Enter key to move the sketch. If you'd like to move a specific sketch point to a certain location, just check the "Position selected Point" box, select the point from the sketch, type in the desired X and Y values, and hit Enter like before.
+ 
+Finally, the Rotate section lets me rotate the sketch counterclockwise by inputting a positive value and hitting Enter, or clockwise by inputting a negative value and hitting Enter.
+ 
+ For this example, I'll mirror the sketch over the vertical axis and reposition it over the pane, close the dialog, and exit the sketch.
+ 
+Before wrapping up, I'd like to point out that even though I've modified this derived sketch, it remains associated to the original sketch, meaning that it'll automatically update when any changes are made to the original. To demonstrate this, I'll edit the original sketch, make a change, and when I exit the sketch, the derived sketch now reflects the changes in addition to the modifications I made before.

@@ -1,0 +1,17 @@
+Whenever you create a boss in SOLIDWORKS, each sketch entity you use will create an individual surface regardless of tangency or continuity. This is apparent in the sunglasses frame I have here, where I used a spline mirrored across a centerline to create the sketch. Since this created two splines, the extrude of the frame is made up of two surfaces with a split where they meet.
+ 
+This split can be frustrating to both look at and work with, so I want to eliminate it, meaning I'll need to create the sketch with a single sketch entity, or in other words, with a single spline. Manually replacing the whole edge with a spline however would be tedious and time consuming.
+ 
+Luckily, SOLIDWORKS has a tool called Fit Spline that lets me replace existing geometry with a single continuous spline entity. To use it, I'll edit the sketch for the frame, and then enable the Fit Spline command by going to the Tools dropdown, and in the Spline Tools flyout, selecting Fit Spline.
+ 
+To use the tool, I first need to select the sketch entities I want to convert. Any existing sketch entities can be selected, and the Fit spline will adjust itself to naturally flow through each entity. The tool can even connect entities that have a gap between them to make a smooth transition. For this sketch I just want the outer splines converted, so I'll select them both, and then move into the PropertyManager.
+ 
+The Parameters section here determines how the new fit spline and the source geometry are related. By default, the source geometry is converted to construction geometry and used to drive the fit spline. If Delete geometry is checked however, the source geometry will be completely removed and replaced with the Fit Spline. The Closed spline checkbox, when selected, will add geometry between the start and end of the Fit spline in order to create a closed contour, but since the entities I've selected here already form a closed contour, its unavailable.
+ 
+The Constrained, Unconstrained, and Fixed radio buttons determine if the Fit spline is parametrically linked to the source geometry, if it's unlinked and free to move, or if it's created fixed in place. Note that Edit Chaining is only available if unconnected entities are selected, and allows you to change the order of the elements.
+ 
+Next, the tolerance spin box sets the maximum deviation the fit spline can be from the source geometry, while the actual deviation box beneath it shows what SOLIDWORKS is actively using and updates automatically.
+ 
+Finally, the preview options can be checked on or off to help you visualize the curvature of the new fit spline, but don't have any effect on it once it's created. For this spline I'll just make sure that the Constrained parameter is selected, and the Delete geometry checkbox is left unchecked, then click OK.
+ 
+The new spline is created, and when I select it, you can see that it is now a single entity. I'll exit the sketch, and you can see that because of this, the outside is now a single surface without the split. For this lesson I just took advantage of the Fit Spline to create a single surface face, but keep in mind that since the tool connects disconnected elements, it can be a great way too smoothly transition curves, as well as create single entities to work with when surfacing. 

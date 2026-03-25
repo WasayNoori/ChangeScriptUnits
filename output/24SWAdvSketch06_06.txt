@@ -1,0 +1,7 @@
+Another type of curve you can create is a Curve Through Reference Points. This type of curve is defined by existing points - either sketch points, endpoints of lines, or vertices. Essentially, you can use almost any type of selectable point.
+ 
+Here I have a 3D Sketch. What I want to do is create a smooth curve along the path of this sketch, which can be useful for modeling cables or tubing.
+ 
+Although I'll be using a 3D Sketch as a reference in this example, it's important to note that I'm not editing the sketch. Curves are created outside of sketches. In fact, if you're editing a sketch, the curve commands will not be available.
+ 
+From the Features tab of the CommandManager, I'll expand the Curves icon, and select Curve Through Reference Points. Once the selection window comes up, I'll click the endpoints of these lines, and you can see a preview of the curve. If you wish to close the curve you can do so by checking the Closed Curve box in the PropertyManager. This curve can stay open, so I'll uncheck the box, and click the green check to view my result.

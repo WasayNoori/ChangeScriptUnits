@@ -1,0 +1,9 @@
+Sometimes rather than creating 3D sketches, it's easier to create two or more regular sketches and combine them using the Composite Curve command. Here I have two sketches: one on the Top plane and one on the Front plane.
+ 
+Right now, they are two separate entities. This can be a problem in certain situations. For example, if I create a sweep, the profile will only follow one sketch; it will not continue from one to the other. By combining them into a single curve, I can get the result I'm looking for.
+ 
+Let's take a look at how sketches can be merged together. Here again I have the two separate sketches. From the Features toolbar, I'll expand the Curves icon and select Composite Curve.
+ 
+The Composite Curve PropertyManager comes up with a single selection window. You can select sketches either from the graphics window or the Feature Tree. As long as the sketches are touching, forming a continuous curve, they can be combined using this command. With both sketches selected, I'll click OK, and you can see in the FeatureManager Tree that the two sketches have been combined into a single Composite Curve.
+ 
+Note that the Composite Curve command is not limited to combining sketches. You can also combine curves, model edges, or a mixture of curves, edges, and sketches. In this example, I'll combine this sketch with several edges on this model. As you select edges, they are added to the selection window. I'll click OK, hide the solid body to get a better view, and you can see the Composite Curve was created.

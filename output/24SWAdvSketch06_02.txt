@@ -1,0 +1,17 @@
+A helix is a 3-dimensional spiral that winds about an axis. To create a helix, you first have to sketch a circle on a regular 2D sketch plane because the diameter of a helix is based on a circle. I want to create a helix going in the Y direction, so I'll quickly sketch a circle on the Top Plane, and give it a diameter of 100 millimeters.
+ 
+With the circle complete, I'm ready to create the helix. To access the Helix command, you can go to the Insert, Curve drop-down menu, and click Helix/Spiral, but I'll simply access the command from the Features tab, by expanding the curves icon.
+ 
+The parameters that control the Helix appear here in the PropertyManager. You can define the Helix using a combination of Pitch, Height, and number of Revolutions. Depending on the selection you make, the options that appear in the PropertyManager will update. If I set the option to Pitch and Revolution, you can see I have the option to set the pitch and revolution. If I change it to Height and Revolution, the Pitch spin box is removed and replaced with Height, and as expected, Height and Pitch lets me define values for both the Height and the Pitch.
+ 
+Regardless of how you define the helix, you always have the option to specify whether the helix will have a constant pitch, or variable pitch. If you choose to use variable pitch, you can still define the pitch, revolution, height, or diameter for different points along the Helix.
+ 
+For this example, I'll choose to define the Helix using Height and Revolution, and I'll use a Constant Pitch. I'll set the height to 1000 millimeters, and set the number of revolutions to 8.
+ 
+If the helix doesn't look quite right, you can use the Reverse Direction checkbox to expand the helix in the opposite direction, change the start angle, and change the direction of the helix using the clockwise and counterclockwise options.
+ 
+You also have the option to create a taper by enabling the Taper Helix group box.
+ 
+I'll leave this option unchecked and click the green check to create the helix.
+ 
+Remember, the helix is a curve, so it has no mass properties. It's simply a curve in 3D space. You can see the feature appears in the FeatureManager. You can edit the Helix by editing the feature, and to edit the helix diameter you can edit the sketch located below the Helix.

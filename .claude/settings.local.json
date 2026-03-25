@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:/Users/wasay/source/repos/WasayNoori/ChangeScriptUnits/Input/test_sample.txt\":*)",
+      "Bash(.venv/Scripts/python.exe main.py)"
+    ]
+  }
+}

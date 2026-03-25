@@ -1,0 +1,9 @@
+There are several reasons you might need to split sketch entities. For instance, if you want to remove a section of this circle, you would have to either delete it entirely and re-create it as an arc, or you'd have to trim it. The problem with trimming is that you need to create more geometry, such as construction lines, to establish the trimming boundaries.
+ 
+Another alternative is to use the Split Entities tool. You can access this tool from the Tools drop down menu, in the Sketch Tools section. You can also access it more conveniently by right-clicking on any sketch entity, and under Sketch Tools, select Split Entities.
+ 
+Once the Split Entities tool is active, just click to split the sketch segment. You can create as many splits as you need. Once you're done, right-click and select OK or press the escape key on your keyboard.
+ 
+As I hover over the sketch geometry, you can see I now have multiple segments. Now I can take this section and delete it, or convert it into construction geometry without affecting the rest of the circle.
+ 
+You'll see an important application of the split entities tool later when you take a look at how to create Lofts.

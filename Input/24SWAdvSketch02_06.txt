@@ -1,0 +1,13 @@
+A conic is a figure formed by the intersection of a cone and a plane, like you can see here, and can be an ellipse, parabola, hyperbola, or even a circle. The conic tool in SOLIDWORKS lets you define a conic curve in a 2D sketch based on end points and a rho value.
+ 
+Just launch the sketch tool from the Tools, Sketch Entities drop down, or from the Ellipse dropdown in the CommandManager.
+ 
+To create the conic, you have to click 4 times: the first end point, the second end point, then the third click defines the top vertex, and the fourth click sets the rho value of the curve. Again, the clicks are first end point, second end point, vertex, and rho.
+ 
+You can also set these values manually in the PropertyManager.
+ 
+I'll switch to another part file where I have an open sketch profile that I want to close. Conic curves can reference existing sketch or model geometry, or they can be standalone entities. The most common use of a conic is used to blend two other curves together.
+ 
+There are a few ways to define the sketch, but in my opinion, one of the easiest and most useful ways to define the conic is to attach both endpoints to other curves, then add tangent relations to both the end points, and a dimension to define the rho value. Making the vertex tangent to both inference lines of the two curves is a good practice, but again, it depends on the curve that you're trying to create, and using a high rho value will make the conic sharp, while using a low rho will make the conic round.
+ 
+Conics are always planar, and simulate the look of a C2 or G2 blend, or in other words, a "curvature continuous blend", and since it's 2nd order mathematically, there won't be any inflection points.

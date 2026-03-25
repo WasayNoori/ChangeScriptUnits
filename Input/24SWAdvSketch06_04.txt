@@ -1,0 +1,17 @@
+Let's take a look at how to define a curve using XYZ data points. The set of XYZ points is interpreted with respect to the coordinate system of the Front Plane - just as it's shown in the Reference Triad. When creating this type of curve there is no need to begin a sketch. Simply expand the Curves icon from the Features toolbar, and choose "Curve Through XYZ Points".
+ 
+This is the dialog box where the curve is defined using XYZ coordinates. Data points can either be entered manually in this table or imported from an ASCII text file. First let's enter a few points manually.
+ 
+To activate the first row, double click one of the cells. The row will be activated, and each cell will have a value of 0. Also, the units used in the current document are shown. I'll enter values and double click the next row to activate it. Notice as you activate a new row, the values from the previous row are copied. I'll enter a few more points, and in the graphics area you can see a preview of the curve as I define it.
+ 
+If you need to insert a point, you can highlight a row and click Insert to add a new row before the highlighted row. When you complete the set of points, you can click OK to complete the curve, or you can save the data for later use. If you save the data, the file created will have the extension S-L-D-C-R-V.
+ 
+I'll click OK and you can see the completed curve. This curve can be used for several things, such as a path for a sweep or a guide curve for a loft. In the FeatureManager tree, you'll see an entry labeled Curve. You can right-click and edit this curve just like any other feature.
+ 
+Next, I'll create a new SOLIDWORKS part for another curve, this time using a text file instead of manually entering each point. I'll open the Curve Through X-Y-Z Points dialog box once again, and select the Browse option. In the Files of Type field, you'll see two options: S-L-D-C-R-V and T-X-T. The first option allows you to browse for a set of points that has been previously saved. The T-X-T option allows you to import data from any ASCII text file, with X-Y-Z columns separated by a space or Tab. You can create this type of file using Notepad or another generic text editor, but if you use a spreadsheet program like Microsoft Excel, you can quickly generate data points using equations and other spreadsheet features.
+ 
+Here I have an Excel spreadsheet with three columns. The second and third columns are defined using equations. Before using this file in SOLIDWORKS, I have to save it as a text file. I'll select the tab delimited text file option from the Save as Type field. Notice I did not specify units in this spreadsheet. When I import this data into SOLIDWORKS, the units from the active document will be used. Let's import the curve and you'll see what I mean.
+ 
+In SOLIDWORKS, now I'll Insert a Curve through X-Y-Z Points, and browse for the file I just created. Remember I saved a text file, so I'll change the Files of Type field to T-X-T.
+ 
+Once I open the file, notice the points are imported and the units have been set based on the units that I'm using in this document. I'll click OK, and there you see the resulting curve.

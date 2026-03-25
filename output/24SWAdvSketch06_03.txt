@@ -1,0 +1,7 @@
+Just like with Helixes, Spirals are based on circular sketch entities, so before I get started, I'll start a sketch on the Front Plane, and fully define a circle centered on the origin. To enable the Spiral tool then, I'll exit the sketch, go to the Features toolbar, expand the Curves flyout, and select Helix and Spiral.
+ 
+Since I already have a circle created, I'll select it in the graphics area, and then change the Defined by type to Spiral. The graphics area updates with a preview of the spiral coming out of the circle, and I can use the Parameters here to change the Pitch, which defines the distance between endpoints after one complete revolution; the number of Revolutions, which defines how many times the spiral loops; and the Start angle, which changes where the spiral begins on the circle.
+ 
+The reverse direction checkbox under the Pitch Parameter will flip the spiral so it goes into, rather than away from the circle, and the Clockwise and Counterclockwise radio buttons under the Start angle will change the spiral's direction of rotation.
+ 
+Once it looks how I want, I'll click the green check, and the spiral is added on the same plane as the circular sketch. To edit it, you can either double click the spiral and edit its dimensions in the graphics area or edit the actual Helix / Spiral feature to access all the options in the PropertyManager.

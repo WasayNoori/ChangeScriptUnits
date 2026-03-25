@@ -1,0 +1,39 @@
+In this lesson, I'll show you how to create a 3D structure similar to one you would see when designing piping or bent tubing, such as the model shown here. I'll create the necessary geometry using a 3D Sketch and then add the necessary dimensions and sketch relations to fully define the structure.
+ 
+ To begin, I'll switch over to a blank part file, and create a new 3D Sketch by selecting the tool from the Sketch dropdown within the Sketch tab of the CommandManager. I'll activate the Line tool, and create a segment beginning at the origin and running along the X direction.
+ 
+When using 3D Sketches, I recommend you pay attention to the length feedback next to your pointer. In this case, I want this segment to be 300 mm long. I'll use the feedback to make sure I'm close to this value, not exactly 300 mm, but close. This will make it much easier to define the sketch later using dimensions and geometric relations.
+ 
+When the segment is complete, you can see its properties in the PropertyManager. Notice SOLIDWORKS automatically added a relation of Along X. If it wasn't, I could easily select the Along X icon to add it manually.
+ 
+Next, I'll sketch a segment in the Y direction about 200 mm long.
+ 
+I want the next segment in the Z direction, so I'll press the TAB key to make the YZ orientation active. If you accidentally pass the orientation you want, simply keep pressing TAB until it reappears.
+ 
+I'll make this segment approximately 150 mm in the Z direction.
+ 
+Next, I'll sketch in the X direction, so I'll press TAB to activate the ZX orientation, and make the line approximately 150 mm long.
+ 
+Next, I'll create a segment in the Z direction about 130 mm long, followed by a 5-inch segment in the X direction.
+ 
+Now I'll create a small segment in the Z direction, and then switch to the XY orientation to create an 8-inch line in the Y direction.
+ 
+To finish the structure, I'll sketch a segment in the X direction about 300 mm long.
+ 
+Now that the shape of the structure is finished, lets add some definition to it. As you can see right now, it's mostly blue, meaning it's underdefined.
+ 
+I'll begin by adding some geometric relations, starting with the two long segments in the X direction. I want these to be Collinear.
+ 
+I also want the two vertical segments to be equal. Instead of the equal relation, I can accomplish the same relation by selecting the upper endpoints of the segments and choosing the Along X relation.
+ 
+Adding dimensions in 3D sketches is a little bit different than in a 2D sketch. I'll launch the dimension tool and select these two points. When I do, SOLIDWORKS displays the vector magnitude, or Point-to-Point length between the points. If I press the TAB key, you can see that I have the ability to add dimensions in a single direction. The cursor feedback lets me know what direction the dimension is being applied in. I can toggle using the TAB key, and dimension along the X, Y, or Z axis, along with the Point-to-Point, or overall length. This makes adding dimensions to 3D sketches easy and intuitive. Also, notice that the dimension text is oriented on the screen with respect to plane that it's being added in. This not only helps keep the graphics area looking clean, but also makes it easy to identify exactly which sketch entity or direction a dimension is controlling when you're making edits. I'll quickly delete this dimension, and instead add a one-inch dimension to the smallest segment of the sketch.
+ 
+Next, I'll define the gap between the two vertical segments, and I'll set it to 51 mm.
+ 
+Both Horizontal segments at the bottom will be 300 mm, and the two longer segments in the top portion will be 150 mm.
+ 
+As you progress with defining a 3D Sketch, remember you can always stop and drag the remaining blue geometry to find out what remains underdefined. I recommend you do this more in 3D Sketches than in 2D Sketches. The reason is that in 3D Sketches, it's possible to add many relations that are redundant or unnecessary. Rather than adding relation after relation, check to see what else you really need to
+ 
+define. In this case, you can see I can drag the blue geometry up and down, so I need to put in the 8-inch vertical dimension.
+ 
+This makes the sketch fully defined.

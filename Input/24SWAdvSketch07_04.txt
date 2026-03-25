@@ -1,0 +1,15 @@
+There may be instances where you've created a layout sketch or group of sketch entities that you'd like to reuse in another part or assembly model, such as text for imprinting on a part. In cases like these, using sketch blocks can make it easy to import these sketches into your designs to save you time and prevent redundant work. In this lesson, I'll show you how to save and load sketch blocks using this SolidProfessor logo that I'll imprint on a model of a hammer.
+ 
+ Before doing so, it's worth mentioning that you can save individual blocks within a sketch or save an entire sketch as a block. Let me switch back to a part containing a series of model numbers in a single sketch with multiple sketch blocks. I'll select a block from the Feature tree, and notice that the "Save Block" icon becomes available in the Blocks toolbar. Selecting it brings up a Save As dialog where I can save the block as a SOLIDWORKS Blocks file. I'll save this as "Model Number 01" in the same location as the sketch file.
+ 
+Now, I'll switch back to the SolidProfessor Logo that I've already converted into a sketch block, select the sketch in the Feature tree, and notice the same icon now appears as "Save Sketch as Block".
+ 
+Selecting it brings up the Save As dialog like before, so I'll save this block as "SP Logo" in the same location.
+ 
+ With the block files saved, I can now load them into any other sketch I'd like. To demonstrate this, I'll switch over to a part file of a hammer whose head I'd like to imprint or deboss the logo onto.
+ 
+ There are different ways you can accomplish this, but an easy way is to make use of the Wrap feature inside SOLIDWORKS. This'll require a sketch containing the entities I'd like to wrap, so I'll start a sketch on the side face of the hammer head, and select the "Insert Block" tool from the Blocks toolbar. Within the Insert Block PropertyManager, I'll click Browse to open a File Explorer where I'll search for and select the logo sketch block, and click Open. Now the selected sketch block appears next to my cursor in the graphics area, and notice that I can adjust its scale and rotation in the PropertyManager before placing it in my sketch. I'll set the scale to 0.15, leave the rotation at 0 degrees, and place it on the hammer head.
+ 
+ This looks good, so I'll exit the sketch. Next, I'll activate the Wrap tool from the Insert dropdown, under Features. In the Wrap PropertyManager, I'll choose the Deboss option for the Wrap Type, leave the Wrap method set to Analytical, make sure the sketch I just created is selected for wrapping, choose the side hammer face to wrap the sketch onto, set the depth to 0.025in, and when I click OK, the logo has been imprinted.
+ 
+Remember, this is just one use-case for reusing sketch blocks, and you may come across different situations where you can save and load sketch blocks to optimize your time and designs.

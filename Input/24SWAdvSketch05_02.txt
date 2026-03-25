@@ -1,0 +1,13 @@
+The spline sketch tool is used to create B-splines, and it might be the most flexible of all the sketch tools. Instead of trying to explain it up front, let me show you an example by creating a central profile for this model of a wavy playground slide. This'll be used to create a lofted surface that forms the shape of the slide.
+ 
+I'll start by editing the Slide Profile sketch which contains some construction geometry to help guide my sketch. I'll launch the spline tool from the sketch toolbar, and you can see a spline icon appears next to the cursor. On the left side, I'll click once on the endpoint of the horizontal line to start the spline, move my cursor, and click again to add additional spline points. To create a spline, you need at least two points, but you can add as many points as you need. To finish the spline, you can either double-click to place the last point and finish the command in a single step, right-click and choose "Select", or press the escape key on your keyboard to finish the spline without placing an additional point.
+ 
+ You can dimension the overall length of a spline, click and drag the spline points to reposition them, and add dimensions and sketch relations between the points to further define their position. I'd like to point out that due to the flexibility splines offer, they're commonly used in situations requiring less rigidity to create unconventional shapes, such as surfacing for industrial design concepts or when creating complex guide curves. Because of this, they're often left underdefined for adjustment purposes. However, I'd like to note that even if the locations of all the spline points are fully defined, you can still edit the shape of the spline geometry.
+ 
+ Notice, for example, when I select a single spline point, two gray arrows appear. These drag handles control the curvature of the spline. I can adjust the angle of the arrows by clicking and dragging the diamond shape, and the magnitude by clicking and dragging the arrows.
+ 
+I can also add dimensions or relations to the drag handles. Be careful when doing this because if you exaggerate the angle or magnitude too much, you'll get an error and the geometry will fail.
+ 
+ Note that if you do want to fully define a spline, you must define both the locations of the spline points and the magnitude and dimension of the drag handles.
+ 
+Before wrapping up, I'd like to point out that when creating a spline, you can alternatively select the starting point of the spline as the final point to create a closed contour, like I'm doing here. These behave just like open splines, and in contrast to a circle or an ellipse, closed contour splines offer greater versatility in the shapes they can create.
