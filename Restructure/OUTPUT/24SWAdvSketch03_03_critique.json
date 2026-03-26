@@ -1,0 +1,79 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 3,
+  "topic": 3,
+  "filename": "24SWAdvSketch03_03.txt",
+  "language": "en",
+  "word_count": 353,
+  "topic_summary": "Using the Segment sketch tool to create equally-spaced points or segments along sketch geometry; covers behavior differences between sketch points and sketch segments, and limitations with splines.",
+  "critique_summary": {
+    "total_blocks": 8,
+    "narrative_blocks": 2,
+    "action_blocks": 0,
+    "mixed_blocks": 6,
+    "issues_found": ["mixed", "passive_action", "observation_tangled"],
+    "overall_quality": "poor",
+    "notes": "The most heavily mixed script in this sample. Nearly every paragraph combines actions ('I'll go ahead and select', 'I'll activate') with immediate result observations ('When I do, the PropertyManager appears', 'You can see spheres appear'). The narrative and action are deeply interleaved at the sentence level — structural rewriting is needed, not just reordering."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "mixed",
+      "text": "The Segment sketch tool lets you add a specific number of equally-spaced points or segments along sketch lines, arcs, circles, splines, parabolas, ellipses, partial ellipses, and conics. For this example, I'll sketch a Center Point arc, and I'll add four points along this arc. To do this, I'll go to the Tools drop-down menu, go to Sketch Tools, and select Segment.",
+      "issues": ["mixed"],
+      "issue_notes": "Sentence 1 is a definition/narrative. Sentences 2 and 3 are actions. The actions are valid but follow immediately after the definition with no separation — the reader must mentally switch modes mid-paragraph."
+    },
+    {
+      "block_id": 2,
+      "type": "mixed",
+      "text": "When I do, the Segment PropertyManager appears. I'll go ahead and select the arc. You can see spheres appear along the arc indicating where the points will be created.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Observation → Action → Observation in three consecutive sentences. 'I'll go ahead and select the arc' is the only action — it is sandwiched between two result descriptions. 'Go ahead and' is filler phrasing that weakens the action."
+    },
+    {
+      "block_id": 3,
+      "type": "mixed",
+      "text": "I can adjust the number of points created by entering a value or using the arrows in the Number of Instances window. Below, you have the option to create Sketch Points or Sketch Segments. The Sketch Points option will create equally spaced points along the arc, whereas the Sketch Segments option will break the arc into individual segments of equal size. I want to create Sketch Points, so I'll select it and click the green check.",
+      "issues": ["mixed", "passive_action"],
+      "issue_notes": "Sentences 1-3 describe UI options (narrative). Sentence 4 is the actual action ('I'll select it and click the green check'). Three sentences of explanation before a single action sentence — the action is easy to miss."
+    },
+    {
+      "block_id": 4,
+      "type": "mixed",
+      "text": "You can see that the points are created along the arc, and an equidistant relation is added to each sketch point. If I add a fixed relation to one of the endpoints, notice when I drag the other endpoint, the points now remain equally spaced. I can modify the number of equidistant points on the line, by right clicking on the equidistant relation and selecting Edit Segment Points.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 is a result observation. Sentence 2 contains an action ('If I add a fixed relation') embedded in a conditional observation ('notice when I drag...'). Sentence 3 is a passive action. Three different content types back-to-back."
+    },
+    {
+      "block_id": 5,
+      "type": "mixed",
+      "text": "When I press the green check, the sketch entity updates to reflect the change. If I delete a point, again, the sketch updates automatically. Finally, if I delete the equidistant relation from one of the points, the equidistant relations are removed from all of the sketch points and replaced with coincident relations.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "All three sentences follow the pattern 'If I [action], [result observation]'. The actions (press, delete, delete) are real UI interactions but are each fused with their result in the same sentence — inseparable as written."
+    },
+    {
+      "block_id": 6,
+      "type": "mixed",
+      "text": "Let me switch to another SOLIDWORKS part file I have open. Here I have an ellipse that I want to split into segments.",
+      "issues": ["mixed"],
+      "issue_notes": "Sentence 1 is a scene-change action ('Let me switch'). Sentence 2 is narrative context about the new file. These should be separate blocks."
+    },
+    {
+      "block_id": 7,
+      "type": "mixed",
+      "text": "I'll activate the Segment tool, select the ellipse, choose the Sketch Segments option from the PropertyManager, and click OK. As you can see, the ellipse is split into equal segments. However, notice that when I resize the ellipse, the segments no longer remain equal. Unlike lines, circles, and arcs, there is no equal length relation added to ellipses, parabolas, conics, and splines when creating equal segments.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 is a clean multi-step action sequence. Sentences 2-4 are result observations and narrative explanation. The transition from action to observation happens without any structural signal."
+    },
+    {
+      "block_id": 8,
+      "type": "mixed",
+      "text": "One last thing I'd like to mention about the Segment tool, is that when creating equal sketch segments on a spline, the shape needs to be fixed, because splitting a spline changes its geometry. To show you an example, I'll sketch a spline, and activate the Segment tool. I'll select the spline, and choose the Sketch Segment option. When I click okay, SOLIDWORKS displays a warning that the spline must be converted to a fixed shape spline before it is split into equal segments. I'll select Yes to convert the spline and complete the feature, and the spline is now fixed and can no longer be resized.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Classic pattern: narrative note → action → result observation → action → result observation. Five alternating mode switches. The warning dialog behavior ('SOLIDWORKS displays a warning') is a result observation embedded between two action steps."
+    }
+  ],
+  "body": "The Segment sketch tool lets you add a specific number of equally-spaced points or segments along sketch lines, arcs, circles, splines, parabolas, ellipses, partial ellipses, and conics. For this example, I'll sketch a Center Point arc, and I'll add four points along this arc. To do this, I'll go to the Tools drop-down menu, go to Sketch Tools, and select Segment. When I do, the Segment PropertyManager appears. I'll go ahead and select the arc. You can see spheres appear along the arc indicating where the points will be created.\n \nI can adjust the number of points created by entering a value or using the arrows in the Number of Instances window. Below, you have the option to create Sketch Points or Sketch Segments. The Sketch Points option will create equally spaced points along the arc, whereas the Sketch Segments option will break the arc into individual segments of equal size. I want to create Sketch Points, so I'll select it and click the green check.\n \nYou can see that the points are created along the arc, and an equidistant relation is added to each sketch point. If I add a fixed relation to one of the endpoints, notice when I drag the other endpoint, the points now remain equally spaced. I can modify the number of equidistant points on the line, by right clicking on the equidistant relation and selecting Edit Segment Points.\n \nWhen I press the green check, the sketch entity updates to reflect the change. If I delete a point, again, the sketch updates automatically. Finally, if I delete the equidistant relation from one of the points, the equidistant relations are removed from all of the sketch points and replaced with coincident relations.\n \nLet me switch to another SOLIDWORKS part file I have open. Here I have an ellipse that I want to split into segments.\n \nI'll activate the Segment tool, select the ellipse, choose the Sketch Segments option from the PropertyManager, and click OK. As you can see, the ellipse is split into equal segments. However, notice that when I resize the ellipse, the segments no longer remain equal. Unlike lines, circles, and arcs, there is no equal length relation added to ellipses, parabolas, conics, and splines when creating equal segments.\n \nOne last thing I'd like to mention about the Segment tool, is that when creating equal sketch segments on a spline, the shape needs to be fixed, because splitting a spline changes its geometry. To show you an example, I'll sketch a spline, and activate the Segment tool. I'll select the spline, and choose the Sketch Segment option. When I click okay, SOLIDWORKS displays a warning that the spline must be converted to a fixed shape spline before it is split into equal segments. I'll select Yes to convert the spline and complete the feature, and the spline is now fixed and can no longer be resized."
+}

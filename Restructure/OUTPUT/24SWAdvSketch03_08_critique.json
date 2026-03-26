@@ -1,0 +1,79 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 3,
+  "topic": 8,
+  "filename": "24SWAdvSketch03_08.txt",
+  "language": "en",
+  "word_count": 382,
+  "topic_summary": "Using the Sketch Picture tool to insert and scale an image as a sketch underlay: controlling position, size, aspect ratio, scale tool, image flipping, and transparency options.",
+  "critique_summary": {
+    "total_blocks": 8,
+    "narrative_blocks": 2,
+    "action_blocks": 0,
+    "mixed_blocks": 6,
+    "issues_found": ["mixed", "passive_action", "observation_tangled", "vague"],
+    "overall_quality": "poor",
+    "notes": "Densest script in the sample set. Notable for ellipsis ('...') used throughout to mark pauses — these are narration timing cues that have no equivalent in a structured script. Almost every block alternates between describing a UI control (narrative) and manipulating it (action) within the same sentence. Block 5 is the most complex, with six distinct actions embedded in two long sentences."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "mixed",
+      "text": "SOLIDWORKS lets you insert an image file into a sketch that you can use as an underlay as you create sketch geometry. This can be useful if you're trying to trace the outline of a shape... or to model something based on a picture you may have taken of it. I'll begin by launching the sketch picture tool from the tools..., sketch tools drop down menu.",
+      "issues": ["mixed"],
+      "issue_notes": "Sentences 1 and 2 are narrative context. Sentence 3 is the launch action. The ellipsis ('...') marks narration pause/hesitation — not meaningful content. Action buried at end of context paragraph."
+    },
+    {
+      "block_id": 2,
+      "type": "mixed",
+      "text": "SOLIDWORKS lets you use many different types of images for a sketch picture, such as bitmap..., gif..., jpeg..., PNG..., and WMF files. When you find the image, click open, and the picture appears in the graphics area, with its lower, left corner located at the origin.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 is narrative listing. Sentence 2 contains an action ('click open') immediately followed by a result observation ('the picture appears in the graphics area'). The action and result are fused in one sentence."
+    },
+    {
+      "block_id": 3,
+      "type": "mixed",
+      "text": "In the PropertyManager, you can control the position of the image using the X position and Y position spin boxes..., as well as the angle. You can see that as I change the angle, the picture rotates about its zero, zero coordinate. For this example, I'll set the first three spin boxes to zero.",
+      "issues": ["mixed", "passive_action"],
+      "issue_notes": "Sentence 1 is a narrative description of PropertyManager controls. Sentence 2 is an action-result fusion ('as I change the angle, the picture rotates'). Sentence 3 is the actual action step. Three modes in three sentences."
+    },
+    {
+      "block_id": 4,
+      "type": "mixed",
+      "text": "These next two spin boxes let you control the size of the picture. Notice that as I change the width of the picture, the height changes as well. This is because the \"Lock Aspect Ratio\" box is checked.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 is narrative. Sentence 2 contains a hidden action ('as I change the width') fused with an observation ('the height changes as well'). Sentence 3 explains the cause. The action is completely invisible — the user would not know to 'change the width' as a step."
+    },
+    {
+      "block_id": 5,
+      "type": "mixed",
+      "text": "When the Enable Scale Tool checkbox is enabled, a scale line appears across the image. This scale line lets you quickly scale the picture properly. To use this, I'll drag the endpoints of the line to match up with the reference of the image I'd like to scale it to, starting with the left endpoint to define the fixed point..., and when I click and drag the right end of the line, shown with an arrow, the Modify dialog appears, where I can enter a reference dimension. I'll type in a value... and the image scales proportionally. To edit the scale, simply clear the checkbox..., and recheck it..., and you can make adjustments again. For this example, I'll fix one endpoint on the origin, drag the other diagonally across the image, and enter a value of 20 for the scale.",
+      "issues": ["mixed", "observation_tangled", "vague"],
+      "issue_notes": "Most complex block in the dataset. Contains at least 6 action steps (enable checkbox, drag left endpoint, click and drag right endpoint, type value, clear checkbox, recheck checkbox) mixed with result observations after each one. 'I'll type in a value...' is vague — no specific value until the last sentence. The last sentence repeats a cleaner version of the same sequence, suggesting the earlier version should be the narrative and the last sentence should be the action block."
+    },
+    {
+      "block_id": 6,
+      "type": "narrative",
+      "text": "The next two buttons let you flip the image horizontally or vertically if it's imported in the wrong orientation.",
+      "issues": ["passive_action"],
+      "issue_notes": "Narrative describing button functionality. The flip action is not demonstrated — purely descriptive. Minor passive action embedded ('let you flip')."
+    },
+    {
+      "block_id": 7,
+      "type": "mixed",
+      "text": "The last set of options controls the transparency of the image. You can have no transparency..., use the transparency from the image file, for instance a PNG or PSD with a transparent background..., set a transparency value for the full image by using the slider under the full image option..., or you can create a user defined transparency. For user defined, you can use the eye dropper to select a specific color in the image to make transparent... and then use the sliders to adjust the tolerance of the color and the transparency amount. This is useful if you have an image with a colored background that you want to make transparent. I'll use the transparency from file for this example... and click the green check to insert the picture.",
+      "issues": ["mixed", "passive_action"],
+      "issue_notes": "Sentences 1-4 are narrative descriptions of transparency options. Sentences 5-6 add more passive options. Final sentence is the actual action ('I'll use the transparency from file... and click the green check'). The single action step is buried after six descriptive sentences."
+    },
+    {
+      "block_id": 8,
+      "type": "mixed",
+      "text": "If you need to edit the sketch picture, just double click it to bring the PropertyManager back up..., or if you need to delete it, simply select it and press the delete key.",
+      "issues": [],
+      "issue_notes": "Near-clean action block. Two imperative instructions ('double click', 'select it and press the delete key') in conditional form. The conditional framing ('if you need to') is acceptable as it clearly marks these as user actions. Minor: ellipsis pause marker present."
+    }
+  ],
+  "body": "SOLIDWORKS lets you insert an image file into a sketch that you can use as an underlay as you create sketch geometry. This can be useful if you're trying to trace the outline of a shape... or to model something based on a picture you may have taken of it. I'll begin by launching the sketch picture tool from the tools..., sketch tools drop down menu.\nSOLIDWORKS lets you use many different types of images for a sketch picture, such as bitmap..., gif..., jpeg..., PNG..., and WMF files. When you find the image, click open, and the picture appears in the graphics area, with its lower, left corner located at the origin.\nIn the PropertyManager, you can control the position of the image using the X position and Y position spin boxes..., as well as the angle. You can see that as I change the angle, the picture rotates about its zero, zero coordinate. For this example, I'll set the first three spin boxes to zero.\nThese next two spin boxes let you control the size of the picture. Notice that as I change the width of the picture, the height changes as well. This is because the \"Lock Aspect Ratio\" box is checked.\nWhen the Enable Scale Tool checkbox is enabled, a scale line appears across the image. This scale line lets you quickly scale the picture properly. To use this, I'll drag the endpoints of the line to match up with the reference of the image I'd like to scale it to, starting with the left endpoint to define the fixed point..., and when I click and drag the right end of the line, shown with an arrow, the Modify dialog appears, where I can enter a reference dimension. I'll type in a value... and the image scales proportionally. To edit the scale, simply clear the checkbox..., and recheck it..., and you can make adjustments again. For this example, I'll fix one endpoint on the origin, drag the other diagonally across the image, and enter a value of 20 for the scale.\nThe next two buttons let you flip the image horizontally or vertically if it's imported in the wrong orientation.\nThe last set of options controls the transparency of the image. You can have no transparency..., use the transparency from the image file, for instance a PNG or PSD with a transparent background..., set a transparency value for the full image by using the slider under the full image option..., or you can create a user defined transparency. For user defined, you can use the eye dropper to select a specific color in the image to make transparent... and then use the sliders to adjust the tolerance of the color and the transparency amount. This is useful if you have an image with a colored background that you want to make transparent. I'll use the transparency from file for this example... and click the green check to insert the picture.\nIf you need to edit the sketch picture, just double click it to bring the PropertyManager back up..., or if you need to delete it, simply select it and press the delete key."
+}

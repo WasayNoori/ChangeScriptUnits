@@ -1,0 +1,65 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 2,
+  "topic": 5,
+  "filename": "24SWAdvSketch02_05.txt",
+  "language": "en",
+  "word_count": 199,
+  "topic_summary": "Sketching Parabolas in SOLIDWORKS: the four-click creation process, editing via PropertyManager or direct manipulation, and best practices for defining with a centerline.",
+  "critique_summary": {
+    "total_blocks": 6,
+    "narrative_blocks": 2,
+    "action_blocks": 2,
+    "mixed_blocks": 2,
+    "issues_found": ["mixed", "passive_action", "observation_tangled"],
+    "overall_quality": "fair",
+    "notes": "This script has the clearest action blocks of all files reviewed so far. Blocks 3 and 4 are nearly clean action blocks. The main issues are in blocks 1 and 2 where narrative and action are tangled, and in block 5 where a passive action is embedded in narrative."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "mixed",
+      "text": "Another helpful sketch tool in creating complex shapes is the Parabola. You can enable it from the Tools, Sketch Entities drop-down, by clicking Parabola, or simply access it from the Ellipse dropdown on the Sketch tab of the CommandManager.",
+      "issues": ["passive_action", "mixed"],
+      "issue_notes": "Sentence 1 is narrative context. Sentence 2 is the tool-launch instruction but written as 'You can enable it' — passive action. The how-to-launch instruction is buried in the second sentence after the context."
+    },
+    {
+      "block_id": 2,
+      "type": "mixed",
+      "text": "In the graphics area, notice the cursor changes to display a pencil with a parabola next to it. I'll click once to establish the center, or focus, of the parabola, and as I move the cursor away, notice the PropertyManager updates, and an outline of the parabola appears.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Observation ('notice the cursor changes') leads into action ('I'll click once'), then immediately pivots back to an observation mid-sentence ('notice the PropertyManager updates'). The action is split across two observations — a reader would struggle to isolate the step."
+    },
+    {
+      "block_id": 3,
+      "type": "action",
+      "text": "Next, I'll click to define the vertex, and click once more to begin the parabola. Now I'll move the pointer to draw out the shape I want, and click once again to complete it.",
+      "issues": [],
+      "issue_notes": "Clean action block. Clear sequential steps with no narrative interference."
+    },
+    {
+      "block_id": 4,
+      "type": "action",
+      "text": "One more time. First, click to mark the focus. Then, click again to mark the vertex. Finally, to define the parabola, click to mark the beginning of the parabola, drag the pointer to draw out the shape, and click one more time to finish.",
+      "issues": [],
+      "issue_notes": "Cleanest action block in this script. Imperative instructions, numbered sequence ('First... Then... Finally'), no narrative mixed in. This is the target format for action blocks."
+    },
+    {
+      "block_id": 5,
+      "type": "mixed",
+      "text": "You can edit the shape and size either by using the parameters available in the PropertyManager, or by clicking and dragging its entities in the graphics area. Keep in mind that clicking and dragging different parts of the parabola will affect its shape, size, and position in different ways depending on how it's constrained.",
+      "issues": ["passive_action", "vague"],
+      "issue_notes": "'You can edit the shape and size... by clicking and dragging' is a passive action embedded in narrative guidance. 'Clicking and dragging different parts' is vague — no specific UI element or location specified."
+    },
+    {
+      "block_id": 6,
+      "type": "narrative",
+      "text": "Defining a parabola really depends on what you're trying to accomplish. One thing I recommend is adding a centerline from the vertex to the focus. This gives you way of establishing a direction for the parabola, such as making the line vertical, and it provides a convenient place to add a dimension. This dimension will control how wide or narrow the parabola opens.",
+      "issues": [],
+      "issue_notes": "Narrative recommendation/best-practice block. Clean."
+    }
+  ],
+  "body": "Another helpful sketch tool in creating complex shapes is the Parabola. You can enable it from the Tools, Sketch Entities drop-down, by clicking Parabola, or simply access it from the Ellipse dropdown on the Sketch tab of the CommandManager.\n \nIn the graphics area, notice the cursor changes to display a pencil with a parabola next to it. I'll click once to establish the center, or focus, of the parabola, and as I move the cursor away, notice the PropertyManager updates, and an outline of the parabola appears.\n \nNext, I'll click to define the vertex, and click once more to begin the parabola. Now I'll move the pointer to draw out the shape I want, and click once again to complete it.\n \nOne more time. First, click to mark the focus. Then, click again to mark the vertex. Finally, to define the parabola, click to mark the beginning of the parabola, drag the pointer to draw out the shape, and click one more time to finish.\n \nYou can edit the shape and size either by using the parameters available in the PropertyManager, or by clicking and dragging its entities in the graphics area. Keep in mind that clicking and dragging different parts of the parabola will affect its shape, size, and position in different ways depending on how it's constrained.\n \nDefining a parabola really depends on what you're trying to accomplish. One thing I recommend is adding a centerline from the vertex to the focus. This gives you way of establishing a direction for the parabola, such as making the line vertical, and it provides a convenient place to add a dimension. This dimension will control how wide or narrow the parabola opens."
+}

@@ -1,0 +1,44 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 3,
+  "topic": 1,
+  "filename": "24SWAdvSketch03_01.txt",
+  "language": "en",
+  "word_count": 158,
+  "topic_summary": "Overview of Advanced Sketch tools: Split Entities, Derived Sketches, Move Entities, SketchXpert, Sketch Picture/AutoTrace, and the Slicing Tool — what they are and when to use them.",
+  "critique_summary": {
+    "total_blocks": 3,
+    "narrative_blocks": 3,
+    "action_blocks": 0,
+    "mixed_blocks": 0,
+    "issues_found": [],
+    "overall_quality": "good",
+    "notes": "Pure overview/intro narrative. No action items are expected or present. This is a lesson intro — structurally clean. The only note is that 'I'll go over how to use each of the tools' is a forward reference, not an on-screen action, which is appropriate here."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "narrative",
+      "text": "The Advanced Sketch tools that I'll cover in this section are SOLIDWORKS tools used to control, manipulate, and create sketches with much greater accuracy. The question with a lot of these tools however, is when to use them, rather than start over?\n\nFor most of these tools, as you can imagine, it has to do with what your goal is. If you want more control over a sketch, splitting entities and adding sketch segments can be a great way to add pinpoint control without ripping down a sketch. The Derived Sketches and Move Entities tools on the other hand, let you easily duplicate work, and even have some other capabilities built in.",
+      "issues": [],
+      "issue_notes": "Clean narrative overview."
+    },
+    {
+      "block_id": 2,
+      "type": "narrative",
+      "text": "The SketchXpert tool falls strongly into the timesaving category by offering potential solutions to over defined sketches, and Sketch Picture and AutoTrace can even help you get started by importing and converting image files into sketch geometry. Similarly, the Slicing Tool can be a huge timesaver and starting point when working with imported geometry, or trying to reverse engineer a solid body.",
+      "issues": [],
+      "issue_notes": "Clean narrative overview of tool categories."
+    },
+    {
+      "block_id": 3,
+      "type": "narrative",
+      "text": "As you can see, the sketch tools have a lot of versatility, so understanding how and when to use these more advanced tools can streamline your workflow, and give you more flexibility.\n\nIn the following lessons, I'll go over how to use each of the tools I just mentioned, and show you how and when to use them.",
+      "issues": ["forward_reference"],
+      "issue_notes": "'I'll go over how to use each of the tools' is a forward reference — not a current action. Appropriate for a lesson intro."
+    }
+  ],
+  "body": "The Advanced Sketch tools that I'll cover in this section are SOLIDWORKS tools used to control, manipulate, and create sketches with much greater accuracy. The question with a lot of these tools however, is when to use them, rather than start over?\n \nFor most of these tools, as you can imagine, it has to do with what your goal is. If you want more control over a sketch, splitting entities and adding sketch segments can be a great way to add pinpoint control without ripping down a sketch. The Derived Sketches and Move Entities tools on the other hand, let you easily duplicate work, and even have some other capabilities built in.\n \nThe SketchXpert tool falls strongly into the timesaving category by offering potential solutions to over defined sketches, and Sketch Picture and AutoTrace can even help you get started by importing and converting image files into sketch geometry. Similarly, the Slicing Tool can be a huge timesaver and starting point when working with imported geometry, or trying to reverse engineer a solid body.\n \nAs you can see, the sketch tools have a lot of versatility, so understanding how and when to use these more advanced tools can streamline your workflow, and give you more flexibility.\n \nIn the following lessons, I'll go over how to use each of the tools I just mentioned, and show you how and when to use them."
+}

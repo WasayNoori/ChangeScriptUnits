@@ -1,0 +1,79 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 4,
+  "topic": 1,
+  "filename": "24SWAdvSketch04_01.txt",
+  "language": "en",
+  "word_count": 471,
+  "topic_summary": "Introduction to 3D Sketching in SOLIDWORKS: using the TAB key to switch sketch planes (XY/YZ/ZX), creating a basic 3D sketch with the line tool, and understanding when 3D sketches are required over 2D.",
+  "critique_summary": {
+    "total_blocks": 9,
+    "narrative_blocks": 3,
+    "action_blocks": 1,
+    "mixed_blocks": 5,
+    "issues_found": ["mixed", "observation_tangled", "passive_action"],
+    "overall_quality": "fair",
+    "notes": "Longer script with a moderate action density. The TAB key instructions are repeated and clear. Block 6 is the only clean action block. The main issue is that action steps are consistently followed by in-line result observations ('you can see', 'notice') in the same sentence, making sentence-level separation necessary."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "narrative",
+      "text": "Creating 3D sketches in SOLIDWORKS can take a bit of getting used to, but it's a skill that can be a big timesaver if you have to design things like tubing, piping, or weldments. To begin a 3D sketch, you can click on the 3D Sketch icon from the Sketch tab of the CommandManager, or you can use the 3D Sketch command from the Insert drop-down menu.",
+      "issues": ["passive_action"],
+      "issue_notes": "Sentence 1 is narrative context. Sentence 2 is the tool-launch instruction but written as passive 'you can click' — the actual launch instruction is not clearly directive."
+    },
+    {
+      "block_id": 2,
+      "type": "narrative",
+      "text": "At first glance, not very much is different between the regular 2D Sketch environment and the 3D Sketch environment you see here. If you look closely, you'll notice a 3D Sketch item is listed in the FeatureManager tree, and the Status Bar reports that you're in fact editing a 3D Sketch.\n\nOther than these indicators, most of the same sketch tools are available, including lines, arcs, rectangles and splines. There is also a sketch tool available only in 3D Sketches called Plane. I'll talk more about that in a moment. First, let's take a look at the basics of 3D Sketching.",
+      "issues": ["forward_reference"],
+      "issue_notes": "Narrative observation of the 3D sketch environment. 'I'll talk more about that in a moment' is a forward reference — narrative. Clean block."
+    },
+    {
+      "block_id": 3,
+      "type": "mixed",
+      "text": "I'll begin by selecting the line tool from the sketch toolbar.\n\nNotice that red arrows show up at the origin matching the X and Y directions of the reference triad here in the corner. Also, next to the pointer, you can see the XY indicator. This feedback tells me that if I start sketching a line right now, it will lie in the XY plane, which has the same orientation as the plane we call the Front plane.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 is a clean action ('I'll begin by selecting the line tool'). The rest of the block is a result observation of what appears after selecting the tool. Should be split: action sentence alone, then observation paragraph."
+    },
+    {
+      "block_id": 4,
+      "type": "mixed",
+      "text": "Before starting the sketch, watch what happens when I press the TAB key on my keyboard. The red arrows move into different orientations and the indicator next the pointer changes. You'll see the XY, YZ, and ZX orientations become active. This ability to change the active orientation of your sketch is what makes 3D Sketching powerful.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 directs the user to observe ('watch what happens when I press the TAB key') — this is simultaneously an action and an instruction to observe. Sentences 2-3 are the result observation. Sentence 4 is narrative explanation. The TAB key press is the action, but it is framed as a demonstration rather than a step."
+    },
+    {
+      "block_id": 5,
+      "type": "narrative",
+      "text": "Instead of creating several 2D Sketches and the reference planes that go along with them, you can use 3D Sketches to accomplish 3D geometry in a single step.\n\nHere's a basic example.",
+      "issues": [],
+      "issue_notes": "Clean narrative transition."
+    },
+    {
+      "block_id": 6,
+      "type": "action",
+      "text": "I want to begin in the XY direction, so I'll press the TAB key to be sure the XY direction is active. Next, I'll click on the origin to begin sketching a line. This line will lie along the Y direction. If I were creating this line in a 2D Sketch, this would be the vertical direction.\n\nNext, I'll continue with a line segment in the X direction. So far, these segments lie in the XY orientation and they're essentially a 2D sketch.\n\nLet's break out of the 2D plane by pressing the TAB key, making the YZ orientation active. Now I'll sketch a segment in the Z direction.\n\nUsing the TAB key again, I'll make the XY orientation active, and sketch a segment in the Y direction. To complete this simple example, I'll add one more segment in the X direction, and turn off the line tool.",
+      "issues": ["observation_tangled"],
+      "issue_notes": "Best action sequence in the script. Clear TAB key usage and directional line sketching. Minor issue: 'This line will lie along the Y direction. If I were creating this line in a 2D Sketch, this would be the vertical direction.' are narrative observations embedded mid-action. Otherwise cleanest multi-step action block in the sample."
+    },
+    {
+      "block_id": 7,
+      "type": "narrative",
+      "text": "You can see as I rotate the sketch that I've got a 3D structure that could not have been created using a 2D Sketch. In fact, to create this using 2D Sketches, I would have had to create two additional reference planes. I'd like to point out, however, that the 3D sketch tool isn't just a faster way of creating multiple 2D sketches; it's important to note that some situations require the use of 3D sketches, such as applications involving routing and weldments.",
+      "issues": [],
+      "issue_notes": "Result observation followed by narrative context. Clean narrative block."
+    },
+    {
+      "block_id": 8,
+      "type": "narrative",
+      "text": "Although what I've shown you so far may seem very basic, I do recommend you try using the line tool along with the TAB key to create some basic 3D structures like this one. Many users struggle to understand the important role of the TAB key and become frustrated when trying to use 3D Sketches.",
+      "issues": [],
+      "issue_notes": "Recommendation/narrative block. Clean."
+    }
+  ],
+  "body": "Creating 3D sketches in SOLIDWORKS can take a bit of getting used to, but it's a skill that can be a big timesaver if you have to design things like tubing, piping, or weldments. To begin a 3D sketch, you can click on the 3D Sketch icon from the Sketch tab of the CommandManager, or you can use the 3D Sketch command from the Insert drop-down menu.\n \nAt first glance, not very much is different between the regular 2D Sketch environment and the 3D Sketch environment you see here. If you look closely, you'll notice a 3D Sketch item is listed in the FeatureManager tree, and the Status Bar reports that you're in fact editing a 3D Sketch.\n \nOther than these indicators, most of the same sketch tools are available, including lines, arcs, rectangles and splines. There is also a sketch tool available only in 3D Sketches called Plane. I'll talk more about that in a moment. First, let's take a look at the basics of 3D Sketching.\n \nI'll begin by selecting the line tool from the sketch toolbar.\n \nNotice that red arrows show up at the origin matching the X and Y directions of the reference triad here in the corner. Also, next to the pointer, you can see the XY indicator. This feedback tells me that if I start sketching a line right now, it will lie in the XY plane, which has the same orientation as the plane we call the Front plane.\n \nBefore starting the sketch, watch what happens when I press the TAB key on my keyboard. The red arrows move into different orientations and the indicator next the pointer changes. You'll see the XY, YZ, and ZX orientations become active. This ability to change the active orientation of your sketch is what makes 3D Sketching powerful.\n \nInstead of creating several 2D Sketches and the reference planes that go along with them, you can use 3D Sketches to accomplish 3D geometry in a single step.\n \nHere's a basic example.\n \nI want to begin in the XY direction, so I'll press the TAB key to be sure the XY direction is active. Next, I'll click on the origin to begin sketching a line. This line will lie along the Y direction. If I were creating this line in a 2D Sketch, this would be the vertical direction.\n \nNext, I'll continue with a line segment in the X direction. So far, these segments lie in the XY orientation and they're essentially a 2D sketch.\n \nLet's break out of the 2D plane by pressing the TAB key, making the YZ orientation active. Now I'll sketch a segment in the Z direction.\n \nUsing the TAB key again, I'll make the XY orientation active, and sketch a segment in the Y direction. To complete this simple example, I'll add one more segment in the X direction, and turn off the line tool.\n \nYou can see as I rotate the sketch that I've got a 3D structure that could not have been created using a 2D Sketch. In fact, to create this using 2D Sketches, I would have had to create two additional reference planes. I'd like to point out, however, that the 3D sketch tool isn't just a faster way of creating multiple 2D sketches; it's important to note that some situations require the use of 3D sketches, such as applications involving routing and weldments.\n \nAlthough what I've shown you so far may seem very basic, I do recommend you try using the line tool along with the TAB key to create some basic 3D structures like this one. Many users struggle to understand the important role of the TAB key and become frustrated when trying to use 3D Sketches."
+}

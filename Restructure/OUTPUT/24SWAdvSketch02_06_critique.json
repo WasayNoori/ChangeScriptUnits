@@ -1,0 +1,72 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 2,
+  "topic": 6,
+  "filename": "24SWAdvSketch02_06.txt",
+  "language": "en",
+  "word_count": 211,
+  "topic_summary": "Using the Conic sketch tool in SOLIDWORKS: the four-click creation process, rho value, attaching endpoints to curves with tangent relations, and practical use for blending curves.",
+  "critique_summary": {
+    "total_blocks": 7,
+    "narrative_blocks": 4,
+    "action_blocks": 1,
+    "mixed_blocks": 2,
+    "issues_found": ["mixed", "passive_action", "vague"],
+    "overall_quality": "fair",
+    "notes": "Better than average structure. The tool-launch instruction (block 2) is the cleanest action sentence in the script. Block 3 attempts a step sequence but mixes action with definition mid-sentence. Block 5 uses a file-switch action buried in a narrative paragraph."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "narrative",
+      "text": "A conic is a figure formed by the intersection of a cone and a plane, like you can see here, and can be an ellipse, parabola, hyperbola, or even a circle. The conic tool in SOLIDWORKS lets you define a conic curve in a 2D sketch based on end points and a rho value.",
+      "issues": [],
+      "issue_notes": "Clean definition/narrative block."
+    },
+    {
+      "block_id": 2,
+      "type": "action",
+      "text": "Just launch the sketch tool from the Tools, Sketch Entities drop down, or from the Ellipse dropdown in the CommandManager.",
+      "issues": ["vague"],
+      "issue_notes": "Imperative action — the best-structured launch instruction across all scripts reviewed. Minor issue: 'just launch' is slightly casual. No vagueness on location (menu path is specified). Nearly clean."
+    },
+    {
+      "block_id": 3,
+      "type": "mixed",
+      "text": "To create the conic, you have to click 4 times: the first end point, the second end point, then the third click defines the top vertex, and the fourth click sets the rho value of the curve. Again, the clicks are first end point, second end point, vertex, and rho.",
+      "issues": ["mixed"],
+      "issue_notes": "Sentence 1 starts as an action instruction ('you have to click 4 times') but alternates between directing the user ('the first end point') and defining what happens ('the third click defines the top vertex'). The definition intrudes on the action. Sentence 2 is a clean action summary and is actually the better version."
+    },
+    {
+      "block_id": 4,
+      "type": "narrative",
+      "text": "You can also set these values manually in the PropertyManager.",
+      "issues": ["passive_action"],
+      "issue_notes": "Single-sentence passive action. A secondary option buried as an aside — easily overlooked."
+    },
+    {
+      "block_id": 5,
+      "type": "mixed",
+      "text": "I'll switch to another part file where I have an open sketch profile that I want to close. Conic curves can reference existing sketch or model geometry, or they can be standalone entities. The most common use of a conic is used to blend two other curves together.",
+      "issues": ["mixed"],
+      "issue_notes": "Sentence 1 is an action ('I'll switch to another part file'). Sentences 2 and 3 are narrative context about conic capabilities. The context would belong in a prior narrative block; the action triggers a scene change and should stand alone."
+    },
+    {
+      "block_id": 6,
+      "type": "narrative",
+      "text": "There are a few ways to define the sketch, but in my opinion, one of the easiest and most useful ways to define the conic is to attach both endpoints to other curves, then add tangent relations to both the end points, and a dimension to define the rho value. Making the vertex tangent to both inference lines of the two curves is a good practice, but again, it depends on the curve that you're trying to create, and using a high rho value will make the conic sharp, while using a low rho will make the conic round.",
+      "issues": ["passive_action"],
+      "issue_notes": "Framed as narrator opinion ('in my opinion'). Contains an implied action sequence ('attach both endpoints... add tangent relations... add a dimension') but it reads as a recommendation, not a directive. Borderline narrative/passive action."
+    },
+    {
+      "block_id": 7,
+      "type": "narrative",
+      "text": "Conics are always planar, and simulate the look of a C2 or G2 blend, or in other words, a \"curvature continuous blend\", and since it's 2nd order mathematically, there won't be any inflection points.",
+      "issues": [],
+      "issue_notes": "Clean technical narrative."
+    }
+  ],
+  "body": "A conic is a figure formed by the intersection of a cone and a plane, like you can see here, and can be an ellipse, parabola, hyperbola, or even a circle. The conic tool in SOLIDWORKS lets you define a conic curve in a 2D sketch based on end points and a rho value.\n \nJust launch the sketch tool from the Tools, Sketch Entities drop down, or from the Ellipse dropdown in the CommandManager.\n \nTo create the conic, you have to click 4 times: the first end point, the second end point, then the third click defines the top vertex, and the fourth click sets the rho value of the curve. Again, the clicks are first end point, second end point, vertex, and rho.\n \nYou can also set these values manually in the PropertyManager.\n \nI'll switch to another part file where I have an open sketch profile that I want to close. Conic curves can reference existing sketch or model geometry, or they can be standalone entities. The most common use of a conic is used to blend two other curves together.\n \nThere are a few ways to define the sketch, but in my opinion, one of the easiest and most useful ways to define the conic is to attach both endpoints to other curves, then add tangent relations to both the end points, and a dimension to define the rho value. Making the vertex tangent to both inference lines of the two curves is a good practice, but again, it depends on the curve that you're trying to create, and using a high rho value will make the conic sharp, while using a low rho will make the conic round.\n \nConics are always planar, and simulate the look of a C2 or G2 blend, or in other words, a \"curvature continuous blend\", and since it's 2nd order mathematically, there won't be any inflection points."
+}

@@ -1,0 +1,36 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 1,
+  "topic": 1,
+  "filename": "24SWAdvSketch01_01.txt",
+  "language": "en",
+  "word_count": 119,
+  "topic_summary": "Course introduction: overview of SOLIDWORKS Advanced Sketching Techniques covering advanced sketch entities, 3D sketching, and splines/curves.",
+  "critique_summary": {
+    "total_blocks": 2,
+    "narrative_blocks": 2,
+    "action_blocks": 0,
+    "issues_found": [],
+    "overall_quality": "good",
+    "notes": "Pure introductory narrative. No action items present, which is expected for a course welcome/overview script. No structural issues."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "narrative",
+      "text": "Hello, and welcome to the SOLIDWORKS Advanced Sketching Techniques course. Sketches are the building blocks for most, if not all part designs, and the goal of this course is to get you familiar with the complex and intricate aspects of the various sketch techniques available in SOLIDWORKS.\n\nTo start off, I'll cover the advanced sketch entities and tools to help you quickly create more advanced parts. I'll then cover 3D sketching, which will serve as a strong foundation for specialized topics such as weldments, and finally move onto creating splines and curves, which allow for more organic designs.\n\nThese tools have a wide application for all sorts of sketch-based features like sweeps and lofts, and you can even set up complicated surfaces with a series of simple sketches. Ultimately, by adding these sketching tools and concepts to your SOLIDWORKS tool belt, you're set up to take advantage of the foundation and design intent of your models, and approach designs with a new perspective.",
+      "issues": ["forward_reference"],
+      "issue_notes": "Uses 'I'll cover' and 'I'll then cover' — first-person future tense, but these describe course structure, not on-screen actions. No UI interaction."
+    },
+    {
+      "block_id": 2,
+      "type": "narrative",
+      "text": "With that said, let's get started!",
+      "issues": [],
+      "issue_notes": "Transition phrase. No action."
+    }
+  ],
+  "body": "Hello, and welcome to the SOLIDWORKS Advanced Sketching Techniques course. Sketches are the building blocks for most, if not all part designs, and the goal of this course is to get you familiar with the complex and intricate aspects of the various sketch techniques available in SOLIDWORKS.\n \nTo start off, I'll cover the advanced sketch entities and tools to help you quickly create more advanced parts. I'll then cover 3D sketching, which will serve as a strong foundation for specialized topics such as weldments, and finally move onto creating splines and curves, which allow for more organic designs.\n \nThese tools have a wide application for all sorts of sketch-based features like sweeps and lofts, and you can even set up complicated surfaces with a series of simple sketches. Ultimately, by adding these sketching tools and concepts to your SOLIDWORKS tool belt, you're set up to take advantage of the foundation and design intent of your models, and approach designs with a new perspective.\n \nWith that said, let's get started!"
+}

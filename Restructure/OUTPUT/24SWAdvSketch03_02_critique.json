@@ -1,0 +1,58 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 3,
+  "topic": 2,
+  "filename": "24SWAdvSketch03_02.txt",
+  "language": "en",
+  "word_count": 190,
+  "topic_summary": "Using the Split Entities sketch tool: accessing the tool via menu or right-click context menu, splitting sketch segments, and practical applications.",
+  "critique_summary": {
+    "total_blocks": 5,
+    "narrative_blocks": 2,
+    "action_blocks": 0,
+    "mixed_blocks": 3,
+    "issues_found": ["mixed", "passive_action", "observation_tangled"],
+    "overall_quality": "poor",
+    "notes": "No clean action blocks. The tool-launch instruction is passive ('You can access'). The actual usage block (Block 3) comes closest to a clean action block but is interrupted by a passive aside. Block 4 has an action ('hover') tangled with an observation mid-sentence."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "narrative",
+      "text": "There are several reasons you might need to split sketch entities. For instance, if you want to remove a section of this circle, you would have to either delete it entirely and re-create it as an arc, or you'd have to trim it. The problem with trimming is that you need to create more geometry, such as construction lines, to establish the trimming boundaries.",
+      "issues": [],
+      "issue_notes": "Clean narrative context block explaining the use case."
+    },
+    {
+      "block_id": 2,
+      "type": "mixed",
+      "text": "Another alternative is to use the Split Entities tool. You can access this tool from the Tools drop down menu, in the Sketch Tools section. You can also access it more conveniently by right-clicking on any sketch entity, and under Sketch Tools, select Split Entities.",
+      "issues": ["passive_action", "mixed"],
+      "issue_notes": "Sentence 1 is narrative (introduces the tool). Sentences 2 and 3 are the launch instructions — both written as passive 'You can access' rather than imperative 'Access' or 'Go to'. The actual action verb 'select Split Entities' at the end of sentence 3 is buried after two passive setups."
+    },
+    {
+      "block_id": 3,
+      "type": "mixed",
+      "text": "Once the Split Entities tool is active, just click to split the sketch segment. You can create as many splits as you need. Once you're done, right-click and select OK or press the escape key on your keyboard.",
+      "issues": ["passive_action"],
+      "issue_notes": "Sentences 1 and 3 are clean imperative actions ('just click', 'right-click and select OK or press the escape key'). Sentence 2 ('You can create as many splits as you need') is a passive capability note that interrupts the action flow. Nearly a clean action block."
+    },
+    {
+      "block_id": 4,
+      "type": "mixed",
+      "text": "As I hover over the sketch geometry, you can see I now have multiple segments. Now I can take this section and delete it, or convert it into construction geometry without affecting the rest of the circle.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 contains an action ('hover') fused with an observation ('you can see I now have multiple segments') — inseparable as written. Sentence 2 is a passive action ('I can take this section and delete it') framed as an option, not an instruction."
+    },
+    {
+      "block_id": 5,
+      "type": "narrative",
+      "text": "You'll see an important application of the split entities tool later when you take a look at how to create Lofts.",
+      "issues": ["forward_reference"],
+      "issue_notes": "Forward reference — narrative. Clean."
+    }
+  ],
+  "body": "There are several reasons you might need to split sketch entities. For instance, if you want to remove a section of this circle, you would have to either delete it entirely and re-create it as an arc, or you'd have to trim it. The problem with trimming is that you need to create more geometry, such as construction lines, to establish the trimming boundaries.\n \nAnother alternative is to use the Split Entities tool. You can access this tool from the Tools drop down menu, in the Sketch Tools section. You can also access it more conveniently by right-clicking on any sketch entity, and under Sketch Tools, select Split Entities.\n \nOnce the Split Entities tool is active, just click to split the sketch segment. You can create as many splits as you need. Once you're done, right-click and select OK or press the escape key on your keyboard.\n \nAs I hover over the sketch geometry, you can see I now have multiple segments. Now I can take this section and delete it, or convert it into construction geometry without affecting the rest of the circle.\n \nYou'll see an important application of the split entities tool later when you take a look at how to create Lofts."
+}

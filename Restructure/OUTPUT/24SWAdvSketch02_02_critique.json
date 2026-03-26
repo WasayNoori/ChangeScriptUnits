@@ -1,0 +1,58 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 2,
+  "topic": 2,
+  "filename": "24SWAdvSketch02_02.txt",
+  "language": "en",
+  "word_count": 202,
+  "topic_summary": "Using the Polygon sketch tool: setting number of sides, inscribed vs circumscribed circle options, and best practices for fully defining the polygon.",
+  "critique_summary": {
+    "total_blocks": 5,
+    "narrative_blocks": 3,
+    "action_blocks": 0,
+    "mixed_blocks": 2,
+    "issues_found": ["mixed", "passive_action", "forward_reference"],
+    "overall_quality": "poor",
+    "notes": "No clean action blocks exist. Every paragraph that contains action instructions is tangled with narrative explanation or passive-voice guidance. It is impossible to extract a clear step-by-step action list without rewriting."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "narrative",
+      "text": "The polygon tool allows you to quickly create equilateral polygons with any number of sides. You can activate the sketch tool from the Sketch tab of the CommandManager, or from the Tools drop-down menu, under Sketch Entities. Both options bring up the Polygon PropertyManager.",
+      "issues": ["passive_action"],
+      "issue_notes": "'You can activate the sketch tool' describes a capability rather than giving an instruction. Reads as narrative but contains the only tool-launch instruction in the script — it is buried and easy to overlook."
+    },
+    {
+      "block_id": 2,
+      "type": "mixed",
+      "text": "Before I begin sketching, notice the PropertyManager allows me to specify the number of sides. I'll specify 8 for this example, and use the Inscribed Circle option. In the graphics area, I'll click to place the center of the polygon, and once more to control the circle diameter.",
+      "issues": ["mixed"],
+      "issue_notes": "Sentence 1 is a narrative observation. Sentences 2 and 3 are actions ('I'll specify', 'I'll click'). Interleaved without separation. The action steps are buried after the observation."
+    },
+    {
+      "block_id": 3,
+      "type": "mixed",
+      "text": "You can see SOLIDWORKS created a construction circle to control the diameter of the polygon. Since I chose the inscribed circle option, you can see the circle is inside the polygon, but I can easily change this by selecting Circumscribed Circle instead.",
+      "issues": ["mixed", "passive_action"],
+      "issue_notes": "'You can see SOLIDWORKS created...' is a result observation (narrative). 'I can easily change this by selecting Circumscribed Circle instead' is an action hidden as a casual aside — it will be missed in production."
+    },
+    {
+      "block_id": 4,
+      "type": "narrative",
+      "text": "While there are additional options below to adjust the polygon, it's important to note that changing these properties won't fully define it. Rather, it's best practice and more intuitive to modify the polygon in the graphics area after exiting its PropertyManager by adding sketch relations and dimensions to fully define it.",
+      "issues": [],
+      "issue_notes": "Clean narrative/best-practice block. No action items."
+    },
+    {
+      "block_id": 5,
+      "type": "mixed",
+      "text": "One last thing to note before wrapping up. If I want to create a new polygon without adjusting the properties of the previously created one and without having to reactivate the tool, I can use the \"New Polygon\" option, adjust any settings as needed, and sketch a new polygon, then continue tweaking the settings for the new polygon as desired.",
+      "issues": ["mixed", "passive_action"],
+      "issue_notes": "Framed as a tip/narrative ('One last thing to note') but contains an embedded action sequence ('I can use the New Polygon option, adjust any settings, and sketch a new polygon'). The action is conditional and phrased passively — hard to extract as a clean step."
+    }
+  ],
+  "body": "The polygon tool allows you to quickly create equilateral polygons with any number of sides. You can activate the sketch tool from the Sketch tab of the CommandManager, or from the Tools drop-down menu, under Sketch Entities. Both options bring up the Polygon PropertyManager.\n \nBefore I begin sketching, notice the PropertyManager allows me to specify the number of sides. I'll specify 8 for this example, and use the Inscribed Circle option. In the graphics area, I'll click to place the center of the polygon, and once more to control the circle diameter.\n \nYou can see SOLIDWORKS created a construction circle to control the diameter of the polygon. Since I chose the inscribed circle option, you can see the circle is inside the polygon, but I can easily change this by selecting Circumscribed Circle instead.\n \nWhile there are additional options below to adjust the polygon, it's important to note that changing these properties won't fully define it. Rather, it's best practice and more intuitive to modify the polygon in the graphics area after exiting its PropertyManager by adding sketch relations and dimensions to fully define it.\n \nOne last thing to note before wrapping up. If I want to create a new polygon without adjusting the properties of the previously created one and without having to reactivate the tool, I can use the \"New Polygon\" option, adjust any settings as needed, and sketch a new polygon, then continue tweaking the settings for the new polygon as desired."
+}

@@ -1,0 +1,58 @@
+{
+  "version": 0,
+  "product": "SOLIDWORKS",
+  "course": "",
+  "lesson": 2,
+  "topic": 3,
+  "filename": "24SWAdvSketch02_03.txt",
+  "language": "en",
+  "word_count": 268,
+  "topic_summary": "Sketching ellipses in SOLIDWORKS: the three-click creation process, reorienting ellipses, and using construction lines with relations to lock orientation.",
+  "critique_summary": {
+    "total_blocks": 5,
+    "narrative_blocks": 2,
+    "action_blocks": 0,
+    "mixed_blocks": 3,
+    "issues_found": ["mixed", "passive_action", "observation_tangled"],
+    "overall_quality": "poor",
+    "notes": "Heavy mixing throughout. The most problematic script so far — action steps are often mid-sentence, embedded between 'you can see' observations and narrative context. Block 2 alone has four different types of content in one paragraph."
+  },
+  "blocks": [
+    {
+      "block_id": 1,
+      "type": "narrative",
+      "text": "While modeling complex shapes, you'll find yourself using the spline tool often to create organic geometry. While there's nothing wrong with that, splines can often be difficult to define and control. Instead, you can use other tools that are easier to control to create predictable geometry, such as ellipses, partial ellipses, parabolas, or conics. I want to take a look at some of these tools, starting with the ellipse like the one shown here. An ellipse is a closed loop consisting of two central axes: a major axis that has a longer diameter, and a minor axis that has a smaller diameter.",
+      "issues": [],
+      "issue_notes": "Clean narrative/context block. No action items."
+    },
+    {
+      "block_id": 2,
+      "type": "mixed",
+      "text": "Sketching an ellipse is a three-step process: you click once to create the centerpoint, move the cursor outward and click again to establish one axis of the ellipse, then move the cursor once more and click to set the second axis. In this case, I created the axes horizontally and vertically, but note that you can create these at any angle to orient the ellipse differently. To demonstrate this, I'll create another ellipse, this time by moving my cursor outward in a diagonal direction, and click to complete the shape.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 is a clean action sequence (imperative, 'you click'). Sentence 2 is a past-tense narrative observation mixed with a note about flexibility. Sentence 3 is a future action ('I'll create'). Three different content types in one paragraph — impossible to use as-is for either a clean action block or a clean narrative block."
+    },
+    {
+      "block_id": 3,
+      "type": "mixed",
+      "text": "Alternatively, you can reorient an ellipse by clicking and dragging one of its endpoints. This is because even though this point appears to be lined up with the center, there was no automatic relation added upon creating the shape, so the ellipse is free to spin.",
+      "issues": ["passive_action", "mixed"],
+      "issue_notes": "'You can reorient... by clicking and dragging' is a passive action instruction — it describes capability rather than directing the user to act. Followed immediately by a technical explanation of why. Mixed block."
+    },
+    {
+      "block_id": 4,
+      "type": "narrative",
+      "text": "There are several ways of keeping this from happening. One way is to add a horizontal relation between a point on the ellipse and its centerpoint.",
+      "issues": ["passive_action"],
+      "issue_notes": "Reads as narrative guidance but implies an action ('add a horizontal relation'). The action is not framed as an instruction — borderline vague."
+    },
+    {
+      "block_id": 5,
+      "type": "mixed",
+      "text": "This is a widely used method and it certainly keeps the ellipse from spinning, but I suggest making use of centerlines instead so that it's easier to tell if a relation has been added. While you could create these manually, SOLIDWORKS provides an option under the Ellipse PropertyManager to add construction lines automatically. I'll enable it, sketch another ellipse, and you can see construction geometry was automatically added between the points on the major and minor axes. From here, I can select one of the lines and assign a vertical or horizontal relation to affix its orientation.",
+      "issues": ["mixed", "observation_tangled"],
+      "issue_notes": "Sentence 1 is narrator opinion/recommendation. Sentence 2 is narrative about SOLIDWORKS capability. Sentence 3 starts with action ('I'll enable it, sketch another ellipse') but ends with an observation ('you can see construction geometry was automatically added'). Sentence 4 is a passive action ('I can select'). Four types in one paragraph."
+    }
+  ],
+  "body": "While modeling complex shapes, you'll find yourself using the spline tool often to create organic geometry. While there's nothing wrong with that, splines can often be difficult to define and control. Instead, you can use other tools that are easier to control to create predictable geometry, such as ellipses, partial ellipses, parabolas, or conics. I want to take a look at some of these tools, starting with the ellipse like the one shown here. An ellipse is a closed loop consisting of two central axes: a major axis that has a longer diameter, and a minor axis that has a smaller diameter.\n \n Sketching an ellipse is a three-step process: you click once to create the centerpoint, move the cursor outward and click again to establish one axis of the ellipse, then move the cursor once more and click to set the second axis. In this case, I created the axes horizontally and vertically, but note that you can create these at any angle to orient the ellipse differently. To demonstrate this, I'll create another ellipse, this time by moving my cursor outward in a diagonal direction, and click to complete the shape.\n \n Alternatively, you can reorient an ellipse by clicking and dragging one of its endpoints. This is because even though this point appears to be lined up with the center, there was no automatic relation added upon creating the shape, so the ellipse is free to spin.\n \n There are several ways of keeping this from happening. One way is to add a horizontal relation between a point on the ellipse and its centerpoint.\n \n This is a widely used method and it certainly keeps the ellipse from spinning, but I suggest making use of centerlines instead so that it's easier to tell if a relation has been added. While you could create these manually, SOLIDWORKS provides an option under the Ellipse PropertyManager to add construction lines automatically. I'll enable it, sketch another ellipse, and you can see construction geometry was automatically added between the points on the major and minor axes. From here, I can select one of the lines and assign a vertical or horizontal relation to affix its orientation."
+}
