@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import os; p = r'C:\\\\Translations\\\\Advanced Sketching\\\\German Scripts'; print\\(repr\\(p\\)\\); print\\(os.path.isdir\\(p\\)\\); print\\(os.path.exists\\(p\\)\\)\")",
+      "Bash(python unit_sync.py)"
+    ]
+  }
+}

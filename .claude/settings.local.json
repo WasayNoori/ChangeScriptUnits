@@ -3,7 +3,15 @@
     "allow": [
       "Bash(\"C:/Users/wasay/source/repos/WasayNoori/ChangeScriptUnits/Input/test_sample.txt\":*)",
       "Bash(.venv/Scripts/python.exe main.py)",
-      "Bash(python -c \"import ast; ast.parse\\(open\\(''Restructure/critique_viewer.py''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")"
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''Restructure/critique_viewer.py''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")",
+      "Bash(pip show:*)",
+      "Bash(ls *.env*)",
+      "Bash(ls Restructure/.env*)",
+      "Bash(.venv/Scripts/pip show:*)",
+      "Bash(.venv/Scripts/pip list:*)",
+      "Bash(.venv/Scripts/pip.exe list:*)",
+      "Bash(C:/Users/wasay/source/repos/WasayNoori/ChangeScriptUnits/.venv/Scripts/python.exe:*)",
+      "Bash(C:/Users/wasay/source/repos/WasayNoori/ChangeScriptUnits/.venv/Scripts/pip.exe install:*)"
     ]
   }
 }
